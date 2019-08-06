@@ -1,6 +1,4 @@
-[
-    {
-        "response": "success",
+[{
         "id": "5",
         "name": "Abraxas",
         "powerstats": {
@@ -49,7 +47,6 @@
         }
     },
     {
-        "response": "success",
         "id": "6",
         "name": "Absorbing Man",
         "powerstats": {
@@ -103,7 +100,6 @@
         }
     },
     {
-        "response": "success",
         "id": "359",
         "name": "Jesse Quick",
         "powerstats": {
@@ -152,7 +148,6 @@
         }
     },
     {
-        "response": "success",
         "id": "1",
         "name": "A-Bomb",
         "powerstats": {
@@ -201,7 +196,6 @@
         }
     },
     {
-        "response": "success",
         "id": "4",
         "name": "Abomination",
         "powerstats": {
@@ -251,7 +245,6 @@
         }
     },
     {
-        "response": "success",
         "id": "22",
         "name": "Ando Masahashi",
         "powerstats": {
@@ -301,7 +294,6 @@
         }
     },
     {
-        "response": "success",
         "id": "88",
         "name": "Bird-Brain",
         "powerstats": {
@@ -351,7 +343,6 @@
     },
 
     {
-        "response": "success",
         "id": "567",
         "name": "Rogue",
         "powerstats": {
@@ -404,7 +395,6 @@
         }
     },
     {
-        "response": "success",
         "id": "73",
         "name": "Batwoman V",
         "powerstats": {
@@ -453,7 +443,6 @@
         }
     },
     {
-        "response": "success",
         "id": "122",
         "name": "Bloodwraith",
         "powerstats": {
@@ -503,7 +492,6 @@
         }
     },
     {
-        "response": "success",
         "id": "191",
         "name": "Crystal",
         "powerstats": {
@@ -553,7 +541,6 @@
         }
     },
     {
-        "response": "success",
         "id": "633",
         "name": "Stargirl",
         "powerstats": {
@@ -605,7 +592,6 @@
     },
 
     {
-        "response": "success",
         "id": "228",
         "name": "Donatello",
         "powerstats": {
@@ -655,7 +641,6 @@
         }
     },
     {
-        "response": "success",
         "id": "478",
         "name": "Multiple Man",
         "powerstats": {
@@ -704,7 +689,6 @@
         }
     },
     {
-        "response": "success",
         "id": "157",
         "name": "Captain Marvel",
         "powerstats": {
@@ -757,7 +741,6 @@
         }
     },
     {
-        "response": "success",
         "id": "195",
         "name": "Cyborg Superman",
         "powerstats": {
@@ -808,7 +791,6 @@
         }
     },
     {
-        "response": "success",
         "id": "634",
         "name": "Static",
         "powerstats": {
@@ -860,7 +842,6 @@
         }
     },
     {
-        "response": "success",
         "id": "428",
         "name": "Man-Thing",
         "powerstats": {
@@ -909,7 +890,6 @@
         }
     },
     {
-        "response": "success",
         "id": "226",
         "name": "Doctor Strange",
         "powerstats": {
@@ -962,7 +942,6 @@
         }
     },
     {
-        "response": "success",
         "id": "240",
         "name": "Elongated Man",
         "powerstats": {
@@ -1011,7 +990,6 @@
         }
     },
     {
-        "response": "success",
         "id": "620",
         "name": "Spider-Man",
         "powerstats": {
@@ -1074,7 +1052,6 @@
         }
     },
     {
-        "response": "success",
         "id": "319",
         "name": "Hawkwoman III",
         "powerstats": {
@@ -1123,7 +1100,6 @@
         }
     },
     {
-        "response": "success",
         "id": "232",
         "name": "Dormammu",
         "powerstats": {
@@ -1177,7 +1153,6 @@
         }
     },
     {
-        "response": "success",
         "id": "492",
         "name": "Niki Sanders",
         "powerstats": {
@@ -1227,7 +1202,6 @@
         }
     },
     {
-        "response": "success",
         "id": "67",
         "name": "Batgirl V",
         "powerstats": {
@@ -1276,7 +1250,6 @@
         }
     },
     {
-        "response": "success",
         "id": "545",
         "name": "Red Arrow",
         "powerstats": {
@@ -1326,7 +1299,6 @@
         }
     },
     {
-        "response": "success",
         "id": "475",
         "name": "Mr Immortal",
         "powerstats": {
@@ -1375,7 +1347,6 @@
         }
     },
     {
-        "response": "success",
         "id": "335",
         "name": "Husk",
         "powerstats": {
@@ -1424,7 +1395,6 @@
         }
     },
     {
-        "response": "success",
         "id": "277",
         "name": "Gary Bell",
         "powerstats": {
@@ -1474,7 +1444,6 @@
     },
 
     {
-        "response": "success",
         "id": "329",
         "name": "Hollow",
         "powerstats": {
@@ -1527,7 +1496,6 @@
         }
     },
     {
-        "response": "success",
         "id": "426",
         "name": "Man of Miracles",
         "powerstats": {
@@ -1576,7 +1544,6 @@
         }
     },
     {
-        "response": "success",
         "id": "164",
         "name": "Cat II",
         "powerstats": {
@@ -1625,7 +1592,6 @@
         }
     },
     {
-        "response": "success",
         "id": "98",
         "name": "Black Canary",
         "powerstats": {
@@ -1675,7 +1641,6 @@
     },
 
     {
-        "response": "success",
         "id": "322",
         "name": "Hellboy",
         "powerstats": {
@@ -1725,7 +1690,6 @@
         }
     },
     {
-        "response": "success",
         "id": "63",
         "name": "Batgirl",
         "powerstats": {
@@ -1775,7 +1739,6 @@
         }
     },
     {
-        "response": "success",
         "id": "529",
         "name": "Psylocke",
         "powerstats": {
@@ -1826,7 +1789,6 @@
         }
     },
     {
-        "response": "success",
         "id": "338",
         "name": "Hyperion",
         "powerstats": {
@@ -1878,7 +1840,6 @@
         }
     },
     {
-        "response": "success",
         "id": "261",
         "name": "Firestorm",
         "powerstats": {
@@ -1930,7 +1891,6 @@
         }
     },
     {
-        "response": "success",
         "id": "550",
         "name": "Red Skull",
         "powerstats": {
@@ -1987,7 +1947,6 @@
         }
     },
     {
-        "response": "success",
         "id": "549",
         "name": "Red Robin",
         "powerstats": {
@@ -2040,7 +1999,6 @@
         }
     },
     {
-        "response": "success",
         "id": "220",
         "name": "DL Hawkins",
         "powerstats": {
@@ -2089,7 +2047,6 @@
         }
     },
     {
-        "response": "success",
         "id": "217",
         "name": "Demogoblin",
         "powerstats": {
@@ -2138,7 +2095,6 @@
         }
     },
     {
-        "response": "success",
         "id": "557",
         "name": "Rick Flag",
         "powerstats": {
@@ -2187,7 +2143,6 @@
         }
     },
     {
-        "response": "success",
         "id": "181",
         "name": "Clock King",
         "powerstats": {
@@ -2236,7 +2191,6 @@
         }
     },
     {
-        "response": "success",
         "id": "113",
         "name": "Blaquesmith",
         "powerstats": {
@@ -2285,7 +2239,6 @@
         }
     },
     {
-        "response": "success",
         "id": "96",
         "name": "Black Bolt",
         "powerstats": {
@@ -2334,7 +2287,6 @@
         }
     },
     {
-        "response": "success",
         "id": "377",
         "name": "Jyn Erso",
         "powerstats": {
@@ -2383,7 +2335,6 @@
         }
     },
     {
-        "response": "success",
         "id": "155",
         "name": "Captain Mar-vell",
         "powerstats": {
@@ -2433,7 +2384,6 @@
         }
     },
     {
-        "response": "success",
         "id": "15",
         "name": "Alex Mercer",
         "powerstats": {
@@ -2484,7 +2434,6 @@
         }
     },
     {
-        "response": "success",
         "id": "212",
         "name": "Deadman",
         "powerstats": {
@@ -2533,7 +2482,6 @@
         }
     },
     {
-        "response": "success",
         "id": "278",
         "name": "General Zod",
         "powerstats": {
@@ -2582,7 +2530,6 @@
         }
     },
     {
-        "response": "success",
         "id": "20",
         "name": "Amazo",
         "powerstats": {
@@ -2634,7 +2581,6 @@
         }
     },
     {
-        "response": "success",
         "id": "519",
         "name": "Plastic Lad",
         "powerstats": {
@@ -2682,12 +2628,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1299.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "252",
         "name": "Fallen One II",
         "powerstats": {
@@ -2736,7 +2678,6 @@
         }
     },
     {
-        "response": "success",
         "id": "497",
         "name": "Nova",
         "powerstats": {
@@ -2786,7 +2727,6 @@
         }
     },
     {
-        "response": "success",
         "id": "36",
         "name": "Aquababy",
         "powerstats": {
@@ -2835,7 +2775,6 @@
         }
     },
     {
-        "response": "success",
         "id": "35",
         "name": "Apocalypse",
         "powerstats": {
@@ -2888,12 +2827,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/852.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "445",
         "name": "Metallo",
         "powerstats": {
@@ -2942,7 +2877,6 @@
         }
     },
     {
-        "response": "success",
         "id": "108",
         "name": "Black Widow II",
         "powerstats": {
@@ -2990,12 +2924,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/618.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "31",
         "name": "Ant-Man II",
         "powerstats": {
@@ -3046,7 +2976,6 @@
     },
 
     {
-        "response": "success",
         "id": "76",
         "name": "Beast Boy",
         "powerstats": {
@@ -3101,7 +3030,6 @@
         }
     },
     {
-        "response": "success",
         "id": "570",
         "name": "Sabretooth",
         "powerstats": {
@@ -3151,7 +3079,6 @@
         }
     },
     {
-        "response": "success",
         "id": "584",
         "name": "Shadow King",
         "powerstats": {
@@ -3208,7 +3135,6 @@
         }
     },
     {
-        "response": "success",
         "id": "91",
         "name": "Birdman",
         "powerstats": {
@@ -3265,7 +3191,6 @@
     },
 
     {
-        "response": "success",
         "id": "115",
         "name": "Blink",
         "powerstats": {
@@ -3314,7 +3239,6 @@
         }
     },
     {
-        "response": "success",
         "id": "79",
         "name": "Beta Ray Bill",
         "powerstats": {
@@ -3364,7 +3288,6 @@
         }
     },
     {
-        "response": "success",
         "id": "7",
         "name": "Adam Monroe",
         "powerstats": {
@@ -3414,7 +3337,6 @@
         }
     },
     {
-        "response": "success",
         "id": "489",
         "name": "Nick Fury",
         "powerstats": {
@@ -3467,7 +3389,6 @@
     },
 
     {
-        "response": "success",
         "id": "161",
         "name": "Captain Universe",
         "powerstats": {
@@ -3520,7 +3441,6 @@
 
 
     {
-        "response": "success",
         "id": "199",
         "name": "Danny Cooper",
         "powerstats": {
@@ -3571,7 +3491,6 @@
 
 
     {
-        "response": "success",
         "id": "175",
         "name": "Chromos",
         "powerstats": {
@@ -3620,7 +3539,6 @@
         }
     },
     {
-        "response": "success",
         "id": "26",
         "name": "Angel Salvadore",
         "powerstats": {
@@ -3669,7 +3587,6 @@
         }
     },
     {
-        "response": "success",
         "id": "540",
         "name": "Rambo",
         "powerstats": {
@@ -3719,7 +3636,6 @@
         }
     },
     {
-        "response": "success",
         "id": "274",
         "name": "Gambit",
         "powerstats": {
@@ -3771,7 +3687,6 @@
         }
     },
     {
-        "response": "success",
         "id": "496",
         "name": "Nova",
         "powerstats": {
@@ -3826,7 +3741,6 @@
         }
     },
     {
-        "response": "success",
         "id": "149",
         "name": "Captain America",
         "powerstats": {
@@ -3876,7 +3790,6 @@
         }
     },
     {
-        "response": "success",
         "id": "536",
         "name": "Quicksilver",
         "powerstats": {
@@ -3927,7 +3840,6 @@
         }
     },
     {
-        "response": "success",
         "id": "281",
         "name": "Ghost Rider II",
         "powerstats": {
@@ -3976,7 +3888,6 @@
         }
     },
     {
-        "response": "success",
         "id": "219",
         "name": "Diamondback",
         "powerstats": {
@@ -4024,12 +3935,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1404.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "121",
         "name": "Bloodhawk",
         "powerstats": {
@@ -4078,7 +3985,6 @@
         }
     },
     {
-        "response": "success",
         "id": "361",
         "name": "Jessica Jones",
         "powerstats": {
@@ -4129,12 +4035,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10403.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "560",
         "name": "Ripcord",
         "powerstats": {
@@ -4183,7 +4085,6 @@
         }
     },
     {
-        "response": "success",
         "id": "558",
         "name": "Riddler",
         "powerstats": {
@@ -4234,7 +4135,6 @@
     },
 
     {
-        "response": "success",
         "id": "248",
         "name": "Evilhawk",
         "powerstats": {
@@ -4283,7 +4183,6 @@
         }
     },
     {
-        "response": "success",
         "id": "425",
         "name": "Magus",
         "powerstats": {
@@ -4333,7 +4232,6 @@
     },
 
     {
-        "response": "success",
         "id": "386",
         "name": "Killer Croc",
         "powerstats": {
@@ -4384,12 +4282,8 @@
 
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "597",
         "name": "Silk Spectre II",
         "powerstats": {
@@ -4438,7 +4332,6 @@
         }
     },
     {
-        "response": "success",
         "id": "599",
         "name": "Silverclaw",
         "powerstats": {
@@ -4488,7 +4381,6 @@
         }
     },
     {
-        "response": "success",
         "id": "598",
         "name": "Silver Surfer",
         "powerstats": {
@@ -4537,7 +4429,6 @@
         }
     },
     {
-        "response": "success",
         "id": "569",
         "name": "Rorschach",
         "powerstats": {
@@ -4586,7 +4477,6 @@
         }
     },
     {
-        "response": "success",
         "id": "93",
         "name": "Bizarro",
         "powerstats": {
@@ -4635,7 +4525,6 @@
         }
     },
     {
-        "response": "success",
         "id": "99",
         "name": "Black Cat",
         "powerstats": {
@@ -4684,7 +4573,6 @@
         }
     },
     {
-        "response": "success",
         "id": "448",
         "name": "Metron",
         "powerstats": {
@@ -4733,7 +4621,6 @@
         }
     },
     {
-        "response": "success",
         "id": "324",
         "name": "Hellstorm",
         "powerstats": {
@@ -4788,7 +4675,6 @@
         }
     },
     {
-        "response": "success",
         "id": "193",
         "name": "Cy-Gor",
         "powerstats": {
@@ -4837,7 +4723,6 @@
         }
     },
     {
-        "response": "success",
         "id": "325",
         "name": "Hercules",
         "powerstats": {
@@ -4896,7 +4781,6 @@
         }
     },
     {
-        "response": "success",
         "id": "451",
         "name": "Micro Lad",
         "powerstats": {
@@ -4946,7 +4830,6 @@
         }
     },
     {
-        "response": "success",
         "id": "21",
         "name": "Ammo",
         "powerstats": {
@@ -4995,7 +4878,6 @@
         }
     },
     {
-        "response": "success",
         "id": "271",
         "name": "Frenzy",
         "powerstats": {
@@ -5044,7 +4926,6 @@
         }
     },
     {
-        "response": "success",
         "id": "548",
         "name": "Red Mist",
         "powerstats": {
@@ -5093,7 +4974,6 @@
         }
     },
     {
-        "response": "success",
         "id": "435",
         "name": "Master Chief",
         "powerstats": {
@@ -5145,7 +5025,6 @@
         }
     },
     {
-        "response": "success",
         "id": "467",
         "name": "Molten Man",
         "powerstats": {
@@ -5194,7 +5073,6 @@
         }
     },
     {
-        "response": "success",
         "id": "367",
         "name": "John Constantine",
         "powerstats": {
@@ -5243,7 +5121,6 @@
         }
     },
     {
-        "response": "success",
         "id": "127",
         "name": "Boba Fett",
         "powerstats": {
@@ -5296,7 +5173,6 @@
         }
     },
     {
-        "response": "success",
         "id": "50",
         "name": "Atom",
         "powerstats": {
@@ -5346,7 +5222,6 @@
         }
     },
     {
-        "response": "success",
         "id": "418",
         "name": "Luke Skywalker",
         "powerstats": {
@@ -5397,7 +5272,6 @@
         }
     },
     {
-        "response": "success",
         "id": "51",
         "name": "Atom",
         "powerstats": {
@@ -5446,7 +5320,6 @@
         }
     },
     {
-        "response": "success",
         "id": "323",
         "name": "Hellcat",
         "powerstats": {
@@ -5496,12 +5369,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/79.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "345",
         "name": "Iron Fist",
         "powerstats": {
@@ -5554,7 +5423,6 @@
         }
     },
     {
-        "response": "success",
         "id": "267",
         "name": "Flash IV",
         "powerstats": {
@@ -5604,7 +5472,6 @@
         }
     },
     {
-        "response": "success",
         "id": "511",
         "name": "Penance",
         "powerstats": {
@@ -5653,7 +5520,6 @@
         }
     },
     {
-        "response": "success",
         "id": "328",
         "name": "Hobgoblin",
         "powerstats": {
@@ -5702,7 +5568,6 @@
         }
     },
     {
-        "response": "success",
         "id": "130",
         "name": "Boom-Boom",
         "powerstats": {
@@ -5757,7 +5622,6 @@
         }
     },
     {
-        "response": "success",
         "id": "97",
         "name": "Black Canary",
         "powerstats": {
@@ -5806,7 +5670,6 @@
         }
     },
     {
-        "response": "success",
         "id": "568",
         "name": "Ronin",
         "powerstats": {
@@ -5866,7 +5729,6 @@
         }
     },
     {
-        "response": "success",
         "id": "201",
         "name": "Daredevil",
         "powerstats": {
@@ -5930,7 +5792,6 @@
     },
 
     {
-        "response": "success",
         "id": "455",
         "name": "Miss Martian",
         "powerstats": {
@@ -5980,7 +5841,6 @@
         }
     },
     {
-        "response": "success",
         "id": "408",
         "name": "Lightning Lord",
         "powerstats": {
@@ -6029,7 +5889,6 @@
         }
     },
     {
-        "response": "success",
         "id": "437",
         "name": "Matt Parkman",
         "powerstats": {
@@ -6077,12 +5936,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/948.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "510",
         "name": "Paul Blart",
         "powerstats": {
@@ -6133,7 +5988,6 @@
 
 
     {
-        "response": "success",
         "id": "365",
         "name": "JJ Powell",
         "powerstats": {
@@ -6182,7 +6036,6 @@
         }
     },
     {
-        "response": "success",
         "id": "551",
         "name": "Red Tornado",
         "powerstats": {
@@ -6235,7 +6088,6 @@
         }
     },
     {
-        "response": "success",
         "id": "29",
         "name": "Annihilus",
         "powerstats": {
@@ -6286,7 +6138,6 @@
     },
 
     {
-        "response": "success",
         "id": "658",
         "name": "Thing",
         "powerstats": {
@@ -6337,7 +6188,6 @@
         }
     },
     {
-        "response": "success",
         "id": "25",
         "name": "Angel Dust",
         "powerstats": {
@@ -6387,7 +6237,6 @@
         }
     },
     {
-        "response": "success",
         "id": "488",
         "name": "Negasonic Teenage Warhead",
         "powerstats": {
@@ -6436,7 +6285,6 @@
         }
     },
     {
-        "response": "success",
         "id": "427",
         "name": "Man-Bat",
         "powerstats": {
@@ -6485,7 +6333,6 @@
         }
     },
     {
-        "response": "success",
         "id": "216",
         "name": "Deathstroke",
         "powerstats": {
@@ -6535,12 +6382,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/672.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "372",
         "name": "Jubilee",
         "powerstats": {
@@ -6590,7 +6433,6 @@
     },
 
     {
-        "response": "success",
         "id": "8",
         "name": "Adam Strange",
         "powerstats": {
@@ -6640,7 +6482,6 @@
         }
     },
     {
-        "response": "success",
         "id": "238",
         "name": "Elektra",
         "powerstats": {
@@ -6695,7 +6536,6 @@
 
 
     {
-        "response": "success",
         "id": "473",
         "name": "Morph",
         "powerstats": {
@@ -6744,7 +6584,6 @@
         }
     },
     {
-        "response": "success",
         "id": "559",
         "name": "Rip Hunter",
         "powerstats": {
@@ -6798,16 +6637,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10543.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "541",
         "name": "Raphael",
         "powerstats": {
@@ -6856,7 +6688,6 @@
         }
     },
     {
-        "response": "success",
         "id": "374",
         "name": "Juggernaut",
         "powerstats": {
@@ -6906,7 +6737,6 @@
         }
     },
     {
-        "response": "success",
         "id": "288",
         "name": "Gog",
         "powerstats": {
@@ -6955,12 +6785,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/693.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "413",
         "name": "Lobo",
         "powerstats": {
@@ -7013,7 +6839,6 @@
         }
     },
     {
-        "response": "success",
         "id": "171",
         "name": "Changeling",
         "powerstats": {
@@ -7063,7 +6888,6 @@
         }
     },
     {
-        "response": "success",
         "id": "506",
         "name": "Osiris",
         "powerstats": {
@@ -7112,7 +6936,6 @@
         }
     },
     {
-        "response": "success",
         "id": "86",
         "name": "Binary",
         "powerstats": {
@@ -7161,40 +6984,15 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/30.jpg"
         }
     },
+
+
+
+
+
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "454",
         "name": "Misfit",
         "powerstats": {
@@ -7243,7 +7041,6 @@
         }
     },
     {
-        "response": "success",
         "id": "483",
         "name": "Namora",
         "powerstats": {
@@ -7294,7 +7091,6 @@
         }
     },
     {
-        "response": "success",
         "id": "71",
         "name": "Batman II",
         "powerstats": {
@@ -7343,7 +7139,6 @@
         }
     },
     {
-        "response": "success",
         "id": "431",
         "name": "Mantis",
         "powerstats": {
@@ -7396,7 +7191,6 @@
         }
     },
     {
-        "response": "success",
         "id": "165",
         "name": "Catwoman",
         "powerstats": {
@@ -7450,7 +7244,6 @@
         }
     },
     {
-        "response": "success",
         "id": "414",
         "name": "Loki",
         "powerstats": {
@@ -7507,7 +7300,6 @@
         }
     },
     {
-        "response": "success",
         "id": "521",
         "name": "Plastique",
         "powerstats": {
@@ -7556,7 +7348,6 @@
         }
     },
     {
-        "response": "success",
         "id": "180",
         "name": "Cloak",
         "powerstats": {
@@ -7605,7 +7396,6 @@
         }
     },
     {
-        "response": "success",
         "id": "353",
         "name": "James T. Kirk",
         "powerstats": {
@@ -7655,7 +7445,6 @@
         }
     },
     {
-        "response": "success",
         "id": "158",
         "name": "Captain Marvel II",
         "powerstats": {
@@ -7705,7 +7494,6 @@
         }
     },
     {
-        "response": "success",
         "id": "656",
         "name": "The Cape",
         "powerstats": {
@@ -7754,7 +7542,6 @@
         }
     },
     {
-        "response": "success",
         "id": "342",
         "name": "Indigo",
         "powerstats": {
@@ -7803,7 +7590,6 @@
         }
     },
     {
-        "response": "success",
         "id": "429",
         "name": "Man-Wolf",
         "powerstats": {
@@ -7854,7 +7640,6 @@
         }
     },
     {
-        "response": "success",
         "id": "538",
         "name": "Ra's Al Ghul",
         "powerstats": {
@@ -7903,7 +7688,6 @@
         }
     },
     {
-        "response": "success",
         "id": "65",
         "name": "Batgirl III",
         "powerstats": {
@@ -7952,7 +7736,6 @@
         }
     },
     {
-        "response": "success",
         "id": "490",
         "name": "Nightcrawler",
         "powerstats": {
@@ -8001,7 +7784,6 @@
         }
     },
     {
-        "response": "success",
         "id": "460",
         "name": "Mister Sinister",
         "powerstats": {
@@ -8061,7 +7843,6 @@
         }
     },
     {
-        "response": "success",
         "id": "302",
         "name": "Green Goblin IV",
         "powerstats": {
@@ -8110,7 +7891,6 @@
         }
     },
     {
-        "response": "success",
         "id": "611",
         "name": "Space Ghost",
         "powerstats": {
@@ -8160,7 +7940,6 @@
         }
     },
     {
-        "response": "success",
         "id": "612",
         "name": "Spawn",
         "powerstats": {
@@ -8210,7 +7989,6 @@
         }
     },
     {
-        "response": "success",
         "id": "214",
         "name": "Deadshot",
         "powerstats": {
@@ -8261,7 +8039,6 @@
         }
     },
     {
-        "response": "success",
         "id": "698",
         "name": "Vision II",
         "powerstats": {
@@ -8311,7 +8088,6 @@
         }
     },
     {
-        "response": "success",
         "id": "696",
         "name": "Violet Parr",
         "powerstats": {
@@ -8362,7 +8138,6 @@
         }
     },
     {
-        "response": "success",
         "id": "333",
         "name": "Human Torch",
         "powerstats": {
@@ -8412,7 +8187,6 @@
         }
     },
     {
-        "response": "success",
         "id": "279",
         "name": "Genesis",
         "powerstats": {
@@ -8461,7 +8235,6 @@
         }
     },
     {
-        "response": "success",
         "id": "695",
         "name": "Violator",
         "powerstats": {
@@ -8510,7 +8283,6 @@
         }
     },
     {
-        "response": "success",
         "id": "697",
         "name": "Vision",
         "powerstats": {
@@ -8559,7 +8331,6 @@
         }
     },
     {
-        "response": "success",
         "id": "105",
         "name": "Black Manta",
         "powerstats": {
@@ -8611,7 +8382,6 @@
     },
 
     {
-        "response": "success",
         "id": "693",
         "name": "Vindicator",
         "powerstats": {
@@ -8661,7 +8431,6 @@
     },
 
     {
-        "response": "success",
         "id": "691",
         "name": "Vertigo II",
         "powerstats": {
@@ -8710,7 +8479,6 @@
         }
     },
     {
-        "response": "success",
         "id": "692",
         "name": "Vibe",
         "powerstats": {
@@ -8760,7 +8528,6 @@
     },
 
     {
-        "response": "success",
         "id": "694",
         "name": "Vindicator",
         "powerstats": {
@@ -8809,7 +8576,6 @@
         }
     },
     {
-        "response": "success",
         "id": "314",
         "name": "Hawkeye II",
         "powerstats": {
@@ -8858,7 +8624,6 @@
         }
     },
     {
-        "response": "success",
         "id": "672",
         "name": "Toxin",
         "powerstats": {
@@ -8915,7 +8680,6 @@
         }
     },
     {
-        "response": "success",
         "id": "555",
         "name": "Rey",
         "powerstats": {
@@ -8964,7 +8728,6 @@
         }
     },
     {
-        "response": "success",
         "id": "111",
         "name": "Blackwulf",
         "powerstats": {
@@ -9014,7 +8777,6 @@
         }
     },
     {
-        "response": "success",
         "id": "215",
         "name": "Deathlok",
         "powerstats": {
@@ -9063,7 +8825,6 @@
         }
     },
     {
-        "response": "success",
         "id": "138",
         "name": "Brother Voodoo",
         "powerstats": {
@@ -9113,7 +8874,6 @@
         }
     },
     {
-        "response": "success",
         "id": "3",
         "name": "Abin Sur",
         "powerstats": {
@@ -9162,7 +8922,6 @@
         }
     },
     {
-        "response": "success",
         "id": "503",
         "name": "One-Above-All",
         "powerstats": {
@@ -9211,7 +8970,6 @@
         }
     },
     {
-        "response": "success",
         "id": "94",
         "name": "Black Abbott",
         "powerstats": {
@@ -9260,7 +9018,6 @@
         }
     },
     {
-        "response": "success",
         "id": "674",
         "name": "Trickster",
         "powerstats": {
@@ -9309,7 +9066,6 @@
         }
     },
     {
-        "response": "success",
         "id": "474",
         "name": "Moses Magnum",
         "powerstats": {
@@ -9358,7 +9114,6 @@
         }
     },
     {
-        "response": "success",
         "id": "436",
         "name": "Match",
         "powerstats": {
@@ -9408,7 +9163,6 @@
         }
     },
     {
-        "response": "success",
         "id": "2",
         "name": "Abe Sapien",
         "powerstats": {
@@ -9459,7 +9213,6 @@
         }
     },
     {
-        "response": "success",
         "id": "556",
         "name": "Rhino",
         "powerstats": {
@@ -9509,7 +9262,6 @@
         }
     },
     {
-        "response": "success",
         "id": "293",
         "name": "Goliath IV",
         "powerstats": {
@@ -9559,7 +9311,6 @@
         }
     },
     {
-        "response": "success",
         "id": "442",
         "name": "Meltdown",
         "powerstats": {
@@ -9613,7 +9364,6 @@
         }
     },
     {
-        "response": "success",
         "id": "30",
         "name": "Ant-Man",
         "powerstats": {
@@ -9668,7 +9418,6 @@
         }
     },
     {
-        "response": "success",
         "id": "434",
         "name": "Master Brood",
         "powerstats": {
@@ -9717,7 +9466,6 @@
         }
     },
     {
-        "response": "success",
         "id": "349",
         "name": "Jack Bauer",
         "powerstats": {
@@ -9766,7 +9514,6 @@
         }
     },
     {
-        "response": "success",
         "id": "178",
         "name": "Claire Bennet",
         "powerstats": {
@@ -9815,12 +9562,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/941.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "66",
         "name": "Batgirl IV",
         "powerstats": {
@@ -9869,12 +9612,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1113.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "684",
         "name": "Valkyrie",
         "powerstats": {
@@ -9924,7 +9663,6 @@
         }
     },
     {
-        "response": "success",
         "id": "137",
         "name": "Brainiac 5",
         "powerstats": {
@@ -9973,7 +9711,6 @@
         }
     },
     {
-        "response": "success",
         "id": "412",
         "name": "Lizard",
         "powerstats": {
@@ -10022,7 +9759,6 @@
         }
     },
     {
-        "response": "success",
         "id": "685",
         "name": "Vanisher",
         "powerstats": {
@@ -10074,7 +9810,6 @@
 
 
     {
-        "response": "success",
         "id": "524",
         "name": "Power Girl",
         "powerstats": {
@@ -10124,7 +9859,6 @@
         }
     },
     {
-        "response": "success",
         "id": "40",
         "name": "Archangel",
         "powerstats": {
@@ -10176,7 +9910,6 @@
         }
     },
     {
-        "response": "success",
         "id": "100",
         "name": "Black Flash",
         "powerstats": {
@@ -10230,7 +9963,6 @@
         }
     },
     {
-        "response": "success",
         "id": "143",
         "name": "Bumbleboy",
         "powerstats": {
@@ -10279,7 +10011,6 @@
         }
     },
     {
-        "response": "success",
         "id": "331",
         "name": "Howard the Duck",
         "powerstats": {
@@ -10334,7 +10065,6 @@
         }
     },
     {
-        "response": "success",
         "id": "395",
         "name": "Kraven the Hunter",
         "powerstats": {
@@ -10385,7 +10115,6 @@
         }
     },
     {
-        "response": "success",
         "id": "13",
         "name": "Ajax",
         "powerstats": {
@@ -10436,7 +10165,6 @@
         }
     },
     {
-        "response": "success",
         "id": "520",
         "name": "Plastic Man",
         "powerstats": {
@@ -10485,7 +10213,6 @@
         }
     },
     {
-        "response": "success",
         "id": "306",
         "name": "Hal Jordan",
         "powerstats": {
@@ -10536,7 +10263,6 @@
         }
     },
     {
-        "response": "success",
         "id": "366",
         "name": "Johann Krauss",
         "powerstats": {
@@ -10585,7 +10311,6 @@
         }
     },
     {
-        "response": "success",
         "id": "64",
         "name": "Batgirl",
         "powerstats": {
@@ -10635,7 +10360,6 @@
         }
     },
     {
-        "response": "success",
         "id": "466",
         "name": "Moloch",
         "powerstats": {
@@ -10685,7 +10409,6 @@
         }
     },
     {
-        "response": "success",
         "id": "517",
         "name": "Phoenix",
         "powerstats": {
@@ -10735,7 +10458,6 @@
         }
     },
     {
-        "response": "success",
         "id": "470",
         "name": "Moon Knight",
         "powerstats": {
@@ -10789,7 +10511,6 @@
         }
     },
     {
-        "response": "success",
         "id": "198",
         "name": "Dagger",
         "powerstats": {
@@ -10837,7 +10558,6 @@
         }
     },
     {
-        "response": "success",
         "id": "34",
         "name": "Anti-Venom",
         "powerstats": {
@@ -10891,7 +10611,6 @@
         }
     },
     {
-        "response": "success",
         "id": "347",
         "name": "Iron Monger",
         "powerstats": {
@@ -10940,7 +10659,6 @@
         }
     },
     {
-        "response": "success",
         "id": "360",
         "name": "Jessica Cruz",
         "powerstats": {
@@ -10990,7 +10708,6 @@
         }
     },
     {
-        "response": "success",
         "id": "234",
         "name": "Drax the Destroyer",
         "powerstats": {
@@ -11038,12 +10755,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10016.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "231",
         "name": "Doppelganger",
         "powerstats": {
@@ -11094,7 +10807,6 @@
         }
     },
     {
-        "response": "success",
         "id": "276",
         "name": "Garbage Man",
         "powerstats": {
@@ -11143,7 +10855,6 @@
         }
     },
     {
-        "response": "success",
         "id": "14",
         "name": "Alan Scott",
         "powerstats": {
@@ -11193,13 +10904,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/698.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "89",
         "name": "Bird-Man",
         "powerstats": {
@@ -11248,7 +10955,6 @@
         }
     },
     {
-        "response": "success",
         "id": "297",
         "name": "Greedo",
         "powerstats": {
@@ -11297,7 +11003,6 @@
         }
     },
     {
-        "response": "success",
         "id": "501",
         "name": "Omniscient",
         "powerstats": {
@@ -11346,7 +11051,6 @@
         }
     },
     {
-        "response": "success",
         "id": "362",
         "name": "Jessica Sanders",
         "powerstats": {
@@ -11396,7 +11100,6 @@
     },
 
     {
-        "response": "success",
         "id": "421",
         "name": "Mach-IV",
         "powerstats": {
@@ -11449,7 +11152,6 @@
         }
     },
     {
-        "response": "success",
         "id": "236",
         "name": "Elastigirl",
         "powerstats": {
@@ -11498,7 +11200,6 @@
         }
     },
     {
-        "response": "success",
         "id": "616",
         "name": "Speedy",
         "powerstats": {
@@ -11546,12 +11247,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1015.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "469",
         "name": "Monica Dawson",
         "powerstats": {
@@ -11600,7 +11297,6 @@
         }
     },
     {
-        "response": "success",
         "id": "227",
         "name": "Domino",
         "powerstats": {
@@ -11658,7 +11354,6 @@
         }
     },
     {
-        "response": "success",
         "id": "321",
         "name": "Hela",
         "powerstats": {
@@ -11707,7 +11402,6 @@
         }
     },
     {
-        "response": "success",
         "id": "262",
         "name": "Fixer",
         "powerstats": {
@@ -11756,7 +11450,6 @@
         }
     },
     {
-        "response": "success",
         "id": "513",
         "name": "Penance II",
         "powerstats": {
@@ -11806,7 +11499,6 @@
         }
     },
     {
-        "response": "success",
         "id": "573",
         "name": "Sasquatch",
         "powerstats": {
@@ -11856,7 +11548,6 @@
         }
     },
     {
-        "response": "success",
         "id": "120",
         "name": "Bloodaxe",
         "powerstats": {
@@ -11905,7 +11596,6 @@
         }
     },
     {
-        "response": "success",
         "id": "587",
         "name": "Shang-Chi",
         "powerstats": {
@@ -11954,7 +11644,6 @@
         }
     },
     {
-        "response": "success",
         "id": "614",
         "name": "Speedball",
         "powerstats": {
@@ -12004,7 +11693,6 @@
         }
     },
     {
-        "response": "success",
         "id": "378",
         "name": "K-2SO",
         "powerstats": {
@@ -12054,7 +11742,6 @@
         }
     },
     {
-        "response": "success",
         "id": "416",
         "name": "Luke Cage",
         "powerstats": {
@@ -12107,7 +11794,6 @@
         }
     },
     {
-        "response": "success",
         "id": "613",
         "name": "Spectre",
         "powerstats": {
@@ -12162,7 +11848,6 @@
         }
     },
     {
-        "response": "success",
         "id": "615",
         "name": "Speedy",
         "powerstats": {
@@ -12213,7 +11898,6 @@
         }
     },
     {
-        "response": "success",
         "id": "81",
         "name": "Big Barda",
         "powerstats": {
@@ -12263,7 +11947,6 @@
         }
     },
     {
-        "response": "success",
         "id": "310",
         "name": "Harry Potter",
         "powerstats": {
@@ -12316,7 +11999,6 @@
         }
     },
     {
-        "response": "success",
         "id": "52",
         "name": "Atom Girl",
         "powerstats": {
@@ -12365,7 +12047,6 @@
         }
     },
     {
-        "response": "success",
         "id": "678",
         "name": "Two-Face",
         "powerstats": {
@@ -12413,16 +12094,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/802.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "162",
         "name": "Carnage",
         "powerstats": {
@@ -12471,12 +12145,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/187.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "317",
         "name": "Hawkwoman",
         "powerstats": {
@@ -12525,16 +12195,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/702.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "677",
         "name": "Triton",
         "powerstats": {
@@ -12582,12 +12245,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/513.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "565",
         "name": "Robin VI",
         "powerstats": {
@@ -12648,7 +12307,6 @@
 
 
     {
-        "response": "success",
         "id": "564",
         "name": "Robin V",
         "powerstats": {
@@ -12705,7 +12363,6 @@
 
 
     {
-        "response": "success",
         "id": "309",
         "name": "Harley Quinn",
         "powerstats": {
@@ -12760,7 +12417,6 @@
     },
 
     {
-        "response": "success",
         "id": "154",
         "name": "Captain Hindsight",
         "powerstats": {
@@ -12811,7 +12467,6 @@
 
 
     {
-        "response": "success",
         "id": "140",
         "name": "Buffy",
         "powerstats": {
@@ -12868,7 +12523,6 @@
         }
     },
     {
-        "response": "success",
         "id": "379",
         "name": "Kang",
         "powerstats": {
@@ -12923,23 +12577,13 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1053.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
+
 
 
     {
-        "response": "success",
         "id": "624",
         "name": "Spider-Woman II",
         "powerstats": {
@@ -12988,7 +12632,6 @@
         }
     },
     {
-        "response": "success",
         "id": "145",
         "name": "Cable",
         "powerstats": {
@@ -13044,7 +12687,6 @@
         }
     },
     {
-        "response": "success",
         "id": "625",
         "name": "Spider-Woman III",
         "powerstats": {
@@ -13093,7 +12735,6 @@
         }
     },
     {
-        "response": "success",
         "id": "147",
         "name": "Cameron Hicks",
         "powerstats": {
@@ -13142,13 +12783,9 @@
         }
     },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "391",
         "name": "Kingpin",
         "powerstats": {
@@ -13199,12 +12836,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "472",
         "name": "Morlun",
         "powerstats": {
@@ -13253,7 +12886,6 @@
         }
     },
     {
-        "response": "success",
         "id": "423",
         "name": "Magneto",
         "powerstats": {
@@ -13308,7 +12940,6 @@
 
 
     {
-        "response": "success",
         "id": "493",
         "name": "Nina Theroux",
         "powerstats": {
@@ -13357,12 +12988,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "23",
         "name": "Angel",
         "powerstats": {
@@ -13412,7 +13039,6 @@
         }
     },
     {
-        "response": "success",
         "id": "461",
         "name": "Mister Zsasz",
         "powerstats": {
@@ -13462,7 +13088,6 @@
     },
 
     {
-        "response": "success",
         "id": "571",
         "name": "Sage",
         "powerstats": {
@@ -13510,12 +13135,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/117.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "702",
         "name": "Walrus",
         "powerstats": {
@@ -13566,7 +13187,6 @@
 
 
     {
-        "response": "success",
         "id": "516",
         "name": "Phantom Girl",
         "powerstats": {
@@ -13615,7 +13235,6 @@
         }
     },
     {
-        "response": "success",
         "id": "532",
         "name": "Pyro",
         "powerstats": {
@@ -13664,7 +13283,6 @@
         }
     },
     {
-        "response": "success",
         "id": "592",
         "name": "Shriek",
         "powerstats": {
@@ -13712,16 +13330,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1319.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "194",
         "name": "Cyborg",
         "powerstats": {
@@ -13772,7 +13383,6 @@
         }
     },
     {
-        "response": "success",
         "id": "358",
         "name": "Jennifer Kale",
         "powerstats": {
@@ -13821,7 +13431,6 @@
         }
     },
     {
-        "response": "success",
         "id": "443",
         "name": "Mephisto",
         "powerstats": {
@@ -13884,7 +13493,6 @@
         }
     },
     {
-        "response": "success",
         "id": "591",
         "name": "Shocker",
         "powerstats": {
@@ -13932,20 +13540,10 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/19.jpg"
         }
     },
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "716",
         "name": "Wolfsbane",
         "powerstats": {
@@ -13995,7 +13593,6 @@
         }
     },
     {
-        "response": "success",
         "id": "542",
         "name": "Raven",
         "powerstats": {
@@ -14044,16 +13641,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/764.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "722",
         "name": "Wyatt Wingfoot",
         "powerstats": {
@@ -14102,7 +13692,6 @@
         }
     },
     {
-        "response": "success",
         "id": "701",
         "name": "Vulture",
         "powerstats": {
@@ -14153,7 +13742,6 @@
 
 
     {
-        "response": "success",
         "id": "707",
         "name": "Warpath",
         "powerstats": {
@@ -14204,18 +13792,11 @@
 
 
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
 
 
     {
-        "response": "success",
         "id": "723",
         "name": "X-23",
         "powerstats": {
@@ -14269,7 +13850,6 @@
         }
     },
     {
-        "response": "success",
         "id": "389",
         "name": "King Kong",
         "powerstats": {
@@ -14319,7 +13899,6 @@
         }
     },
     {
-        "response": "success",
         "id": "43",
         "name": "Ares",
         "powerstats": {
@@ -14371,7 +13950,6 @@
         }
     },
     {
-        "response": "success",
         "id": "339",
         "name": "Iceman",
         "powerstats": {
@@ -14425,7 +14003,6 @@
         }
     },
     {
-        "response": "success",
         "id": "75",
         "name": "Beast",
         "powerstats": {
@@ -14479,7 +14056,6 @@
         }
     },
     {
-        "response": "success",
         "id": "301",
         "name": "Green Goblin III",
         "powerstats": {
@@ -14528,7 +14104,6 @@
         }
     },
     {
-        "response": "success",
         "id": "681",
         "name": "Utgard-Loki",
         "powerstats": {
@@ -14577,7 +14152,6 @@
         }
     },
     {
-        "response": "success",
         "id": "211",
         "name": "Dazzler",
         "powerstats": {
@@ -14631,7 +14205,6 @@
         }
     },
     {
-        "response": "success",
         "id": "680",
         "name": "Ultron",
         "powerstats": {
@@ -14689,7 +14262,6 @@
         }
     },
     {
-        "response": "success",
         "id": "679",
         "name": "Ultragirl",
         "powerstats": {
@@ -14739,7 +14311,6 @@
         }
     },
     {
-        "response": "success",
         "id": "464",
         "name": "Mogo",
         "powerstats": {
@@ -14787,16 +14358,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1432.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "74",
         "name": "Beak",
         "powerstats": {
@@ -14845,7 +14409,6 @@
         }
     },
     {
-        "response": "success",
         "id": "689",
         "name": "Venom III",
         "powerstats": {
@@ -14900,7 +14463,6 @@
 
 
     {
-        "response": "success",
         "id": "340",
         "name": "Impulse",
         "powerstats": {
@@ -14949,13 +14511,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/895.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "484",
         "name": "Namorita",
         "powerstats": {
@@ -15005,7 +14563,6 @@
         }
     },
     {
-        "response": "success",
         "id": "223",
         "name": "Doctor Doom II",
         "powerstats": {
@@ -15055,7 +14612,6 @@
         }
     },
     {
-        "response": "success",
         "id": "47",
         "name": "Astro Boy",
         "powerstats": {
@@ -15104,7 +14660,6 @@
         }
     },
     {
-        "response": "success",
         "id": "37",
         "name": "Aqualad",
         "powerstats": {
@@ -15153,7 +14708,6 @@
         }
     },
     {
-        "response": "success",
         "id": "260",
         "name": "Firestorm",
         "powerstats": {
@@ -15202,7 +14756,6 @@
         }
     },
     {
-        "response": "success",
         "id": "221",
         "name": "Doc Samson",
         "powerstats": {
@@ -15254,7 +14807,6 @@
 
 
     {
-        "response": "success",
         "id": "299",
         "name": "Green Goblin",
         "powerstats": {
@@ -15314,7 +14866,6 @@
 
 
     {
-        "response": "success",
         "id": "371",
         "name": "Jolt",
         "powerstats": {
@@ -15365,7 +14916,6 @@
     },
 
     {
-        "response": "success",
         "id": "595",
         "name": "Silk",
         "powerstats": {
@@ -15415,7 +14965,6 @@
     },
 
     {
-        "response": "success",
         "id": "580",
         "name": "Scorpia",
         "powerstats": {
@@ -15463,20 +15012,10 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1123.jpg"
         }
     },
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "363",
         "name": "Jigsaw",
         "powerstats": {
@@ -15525,12 +15064,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/887.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "575",
         "name": "Savage Dragon",
         "powerstats": {
@@ -15579,7 +15114,6 @@
         }
     },
     {
-        "response": "success",
         "id": "225",
         "name": "Doctor Octopus",
         "powerstats": {
@@ -15634,24 +15168,11 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/622.jpg"
         }
     },
+
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "487",
         "name": "Nebula",
         "powerstats": {
@@ -15700,20 +15221,10 @@
         }
     },
 
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "10",
         "name": "Agent Bob",
         "powerstats": {
@@ -15764,28 +15275,12 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10255.jpg"
         }
     },
+
+
+
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "518",
         "name": "Plantman",
         "powerstats": {
@@ -15841,7 +15336,6 @@
 
 
     {
-        "response": "success",
         "id": "107",
         "name": "Black Widow",
         "powerstats": {
@@ -15900,7 +15394,6 @@
         }
     },
     {
-        "response": "success",
         "id": "150",
         "name": "Captain Atom",
         "powerstats": {
@@ -15951,7 +15444,6 @@
         }
     },
     {
-        "response": "success",
         "id": "337",
         "name": "Hydro-Man",
         "powerstats": {
@@ -16000,7 +15492,6 @@
         }
     },
     {
-        "response": "success",
         "id": "48",
         "name": "Atlas",
         "powerstats": {
@@ -16054,7 +15545,6 @@
         }
     },
     {
-        "response": "success",
         "id": "136",
         "name": "Brainiac",
         "powerstats": {
@@ -16104,7 +15594,6 @@
     },
 
     {
-        "response": "success",
         "id": "109",
         "name": "Blackout",
         "powerstats": {
@@ -16157,7 +15646,6 @@
 
 
     {
-        "response": "success",
         "id": "19",
         "name": "Allan Quatermain",
         "powerstats": {
@@ -16208,7 +15696,6 @@
 
 
     {
-        "response": "success",
         "id": "62",
         "name": "Bantam",
         "powerstats": {
@@ -16257,7 +15744,6 @@
         }
     },
     {
-        "response": "success",
         "id": "649",
         "name": "T-1000",
         "powerstats": {
@@ -16307,7 +15793,6 @@
         }
     },
     {
-        "response": "success",
         "id": "243",
         "name": "Energy",
         "powerstats": {
@@ -16356,7 +15841,6 @@
         }
     },
     {
-        "response": "success",
         "id": "468",
         "name": "Monarch",
         "powerstats": {
@@ -16407,12 +15891,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1006.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "547",
         "name": "Red Hulk",
         "powerstats": {
@@ -16464,13 +15944,9 @@
         }
     },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "61",
         "name": "Banshee",
         "powerstats": {
@@ -16518,13 +15994,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/26.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "505",
         "name": "Oracle",
         "powerstats": {
@@ -16573,12 +16045,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/749.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "106",
         "name": "Black Panther",
         "powerstats": {
@@ -16632,19 +16100,12 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/247.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
 
 
 
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "346",
         "name": "Iron Man",
         "powerstats": {
@@ -16700,12 +16161,8 @@
 
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "500",
         "name": "Omega Red",
         "powerstats": {
@@ -16762,7 +16219,6 @@
 
 
     {
-        "response": "success",
         "id": "364",
         "name": "Jim Powell",
         "powerstats": {
@@ -16813,7 +16269,6 @@
 
 
     {
-        "response": "success",
         "id": "229",
         "name": "Donna Troy",
         "powerstats": {
@@ -16866,7 +16321,6 @@
         }
     },
     {
-        "response": "success",
         "id": "44",
         "name": "Ariel",
         "powerstats": {
@@ -16915,7 +16369,6 @@
         }
     },
     {
-        "response": "success",
         "id": "263",
         "name": "Flash",
         "powerstats": {
@@ -16965,7 +16418,6 @@
         }
     },
     {
-        "response": "success",
         "id": "495",
         "name": "Northstar",
         "powerstats": {
@@ -17014,7 +16466,6 @@
         }
     },
     {
-        "response": "success",
         "id": "170",
         "name": "Chameleon",
         "powerstats": {
@@ -17072,12 +16523,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "486",
         "name": "Nathan Petrelli",
         "powerstats": {
@@ -17126,7 +16573,6 @@
         }
     },
     {
-        "response": "success",
         "id": "16",
         "name": "Alex Woolsly",
         "powerstats": {
@@ -17176,12 +16622,8 @@
     },
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "420",
         "name": "Lyja",
         "powerstats": {
@@ -17231,12 +16673,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1017.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "224",
         "name": "Doctor Fate",
         "powerstats": {
@@ -17284,13 +16722,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/676.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "142",
         "name": "Bumblebee",
         "powerstats": {
@@ -17339,12 +16773,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "604",
         "name": "Siryn",
         "powerstats": {
@@ -17392,12 +16822,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/833.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "153",
         "name": "Captain Epic",
         "powerstats": {
@@ -17445,13 +16871,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/3.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "630",
         "name": "Star-Lord",
         "powerstats": {
@@ -17501,7 +16923,6 @@
     },
 
     {
-        "response": "success",
         "id": "617",
         "name": "Spider-Carnage",
         "powerstats": {
@@ -17550,7 +16971,6 @@
         }
     },
     {
-        "response": "success",
         "id": "27",
         "name": "Angela",
         "powerstats": {
@@ -17599,7 +17019,6 @@
         }
     },
     {
-        "response": "success",
         "id": "239",
         "name": "Elle Bishop",
         "powerstats": {
@@ -17647,12 +17066,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1021.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "670",
         "name": "Toad",
         "powerstats": {
@@ -17701,7 +17116,6 @@
         }
     },
     {
-        "response": "success",
         "id": "272",
         "name": "Frigga",
         "powerstats": {
@@ -17753,12 +17167,8 @@
 
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "124",
         "name": "Blue Beetle",
         "powerstats": {
@@ -17807,7 +17217,6 @@
         }
     },
     {
-        "response": "success",
         "id": "663",
         "name": "Thunderbird III",
         "powerstats": {
@@ -17856,7 +17265,6 @@
         }
     },
     {
-        "response": "success",
         "id": "586",
         "name": "Shadowcat",
         "powerstats": {
@@ -17908,7 +17316,6 @@
         }
     },
     {
-        "response": "success",
         "id": "543",
         "name": "Ray",
         "powerstats": {
@@ -17957,7 +17364,6 @@
         }
     },
     {
-        "response": "success",
         "id": "525",
         "name": "Power Man",
         "powerstats": {
@@ -18006,7 +17412,6 @@
         }
     },
     {
-        "response": "success",
         "id": "49",
         "name": "Atlas",
         "powerstats": {
@@ -18056,12 +17461,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "637",
         "name": "Steppenwolf",
         "powerstats": {
@@ -18109,17 +17510,10 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10653.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
 
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "432",
         "name": "Martian Manhunter",
         "powerstats": {
@@ -18169,15 +17563,11 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/733.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
 
 
     {
-        "response": "success",
         "id": "638",
         "name": "Storm",
         "powerstats": {
@@ -18238,7 +17628,6 @@
         }
     },
     {
-        "response": "success",
         "id": "269",
         "name": "Franklin Richards",
         "powerstats": {
@@ -18291,16 +17680,9 @@
         }
     },
 
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "33",
         "name": "Anti-Spawn",
         "powerstats": {
@@ -18349,7 +17731,6 @@
         }
     },
     {
-        "response": "success",
         "id": "401",
         "name": "Leader",
         "powerstats": {
@@ -18398,12 +17779,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "512",
         "name": "Penance I",
         "powerstats": {
@@ -18452,7 +17829,6 @@
         }
     },
     {
-        "response": "success",
         "id": "657",
         "name": "The Comedian",
         "powerstats": {
@@ -18501,7 +17877,6 @@
         }
     },
     {
-        "response": "success",
         "id": "654",
         "name": "Tempest",
         "powerstats": {
@@ -18550,7 +17925,6 @@
         }
     },
     {
-        "response": "success",
         "id": "653",
         "name": "Taskmaster",
         "powerstats": {
@@ -18599,7 +17973,6 @@
         }
     },
     {
-        "response": "success",
         "id": "326",
         "name": "Hiro Nakamura",
         "powerstats": {
@@ -18649,7 +18022,6 @@
         }
     },
     {
-        "response": "success",
         "id": "481",
         "name": "Namor",
         "powerstats": {
@@ -18709,7 +18081,6 @@
         }
     },
     {
-        "response": "success",
         "id": "185",
         "name": "Colossus",
         "powerstats": {
@@ -18761,7 +18132,6 @@
         }
     },
     {
-        "response": "success",
         "id": "655",
         "name": "Thanos",
         "powerstats": {
@@ -18812,13 +18182,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "602",
         "name": "Siren",
         "powerstats": {
@@ -18867,12 +18233,8 @@
         }
     },
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "406",
         "name": "Light Lass",
         "powerstats": {
@@ -18921,13 +18283,9 @@
         }
     },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "590",
         "name": "She-Thing",
         "powerstats": {
@@ -18977,26 +18335,16 @@
         }
     },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
 
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
+
 
 
 
 
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "382",
         "name": "Kevin 11",
         "powerstats": {
@@ -19054,7 +18402,6 @@
         }
     },
     {
-        "response": "success",
         "id": "312",
         "name": "Hawk",
         "powerstats": {
@@ -19104,7 +18451,6 @@
         }
     },
     {
-        "response": "success",
         "id": "101",
         "name": "Black Goliath",
         "powerstats": {
@@ -19153,7 +18499,6 @@
         }
     },
     {
-        "response": "success",
         "id": "53",
         "name": "Atom II",
         "powerstats": {
@@ -19207,7 +18552,6 @@
 
 
     {
-        "response": "success",
         "id": "572",
         "name": "Sandman",
         "powerstats": {
@@ -19257,29 +18601,13 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/621.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
+
+
+
 
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "213",
         "name": "Deadpool",
         "powerstats": {
@@ -19336,7 +18664,6 @@
         }
     },
     {
-        "response": "success",
         "id": "110",
         "name": "Blackwing",
         "powerstats": {
@@ -19389,12 +18716,8 @@
     },
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "606",
         "name": "Snake-Eyes",
         "powerstats": {
@@ -19447,7 +18770,6 @@
 
 
     {
-        "response": "success",
         "id": "351",
         "name": "Jack-Jack",
         "powerstats": {
@@ -19496,7 +18818,6 @@
         }
     },
     {
-        "response": "success",
         "id": "131",
         "name": "Boomer",
         "powerstats": {
@@ -19547,7 +18868,6 @@
 
 
     {
-        "response": "success",
         "id": "95",
         "name": "Black Adam",
         "powerstats": {
@@ -19599,7 +18919,6 @@
         }
     },
     {
-        "response": "success",
         "id": "504",
         "name": "Onslaught",
         "powerstats": {
@@ -19654,7 +18973,6 @@
         }
     },
     {
-        "response": "success",
         "id": "289",
         "name": "Goku",
         "powerstats": {
@@ -19709,7 +19027,6 @@
         }
     },
     {
-        "response": "success",
         "id": "254",
         "name": "Feral",
         "powerstats": {
@@ -19758,7 +19075,6 @@
         }
     },
     {
-        "response": "success",
         "id": "84",
         "name": "Bill Harken",
         "powerstats": {
@@ -19813,12 +19129,8 @@
 
 
 
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "304",
         "name": "Guardian",
         "powerstats": {
@@ -19871,7 +19183,6 @@
         }
     },
     {
-        "response": "success",
         "id": "205",
         "name": "Darkside",
         "powerstats": {
@@ -19920,7 +19231,6 @@
         }
     },
     {
-        "response": "success",
         "id": "449",
         "name": "Micah Sanders",
         "powerstats": {
@@ -19976,7 +19286,6 @@
 
 
     {
-        "response": "success",
         "id": "593",
         "name": "Shrinking Violet",
         "powerstats": {
@@ -20025,7 +19334,6 @@
         }
     },
     {
-        "response": "success",
         "id": "305",
         "name": "Guy Gardner",
         "powerstats": {
@@ -20075,12 +19383,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/700.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "605",
         "name": "Skaar",
         "powerstats": {
@@ -20133,13 +19437,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/1341.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "190",
         "name": "Crimson Dynamo",
         "powerstats": {
@@ -20190,7 +19490,6 @@
 
 
     {
-        "response": "success",
         "id": "622",
         "name": "Spider-Man",
         "powerstats": {
@@ -20241,7 +19540,6 @@
 
 
     {
-        "response": "success",
         "id": "83",
         "name": "Big Man",
         "powerstats": {
@@ -20290,7 +19588,6 @@
         }
     },
     {
-        "response": "success",
         "id": "623",
         "name": "Spider-Woman",
         "powerstats": {
@@ -20342,7 +19639,6 @@
         }
     },
     {
-        "response": "success",
         "id": "457",
         "name": "Mister Freeze",
         "powerstats": {
@@ -20394,7 +19690,6 @@
     },
 
     {
-        "response": "success",
         "id": "641",
         "name": "Superboy",
         "powerstats": {
@@ -20444,7 +19739,6 @@
         }
     },
     {
-        "response": "success",
         "id": "311",
         "name": "Havok",
         "powerstats": {
@@ -20494,7 +19788,6 @@
         }
     },
     {
-        "response": "success",
         "id": "87",
         "name": "Bionic Woman",
         "powerstats": {
@@ -20542,16 +19835,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10648.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "608",
         "name": "Sobek",
         "powerstats": {
@@ -20601,29 +19887,16 @@
     },
 
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
 
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
+
+
 
 
 
     {
-        "response": "success",
         "id": "659",
         "name": "Thor",
         "powerstats": {
@@ -20675,7 +19948,6 @@
         }
     },
     {
-        "response": "success",
         "id": "318",
         "name": "Hawkwoman II",
         "powerstats": {
@@ -20724,7 +19996,6 @@
         }
     },
     {
-        "response": "success",
         "id": "207",
         "name": "Darth Maul",
         "powerstats": {
@@ -20776,7 +20047,6 @@
 
 
     {
-        "response": "success",
         "id": "717",
         "name": "Wolverine",
         "powerstats": {
@@ -20837,7 +20107,6 @@
     },
 
     {
-        "response": "success",
         "id": "102",
         "name": "Black Knight III",
         "powerstats": {
@@ -20888,7 +20157,6 @@
         }
     },
     {
-        "response": "success",
         "id": "11",
         "name": "Agent Zero",
         "powerstats": {
@@ -20936,12 +20204,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/396.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "373",
         "name": "Judge Dredd",
         "powerstats": {
@@ -20991,7 +20255,6 @@
         }
     },
     {
-        "response": "success",
         "id": "664",
         "name": "Thunderstrike",
         "powerstats": {
@@ -21039,12 +20302,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/177.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "400",
         "name": "Lady Deathstrike",
         "powerstats": {
@@ -21093,7 +20352,6 @@
         }
     },
     {
-        "response": "success",
         "id": "332",
         "name": "Hulk",
         "powerstats": {
@@ -21148,16 +20406,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/83.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "662",
         "name": "Thunderbird II",
         "powerstats": {
@@ -21205,30 +20456,14 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/927.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
+
+
+
+
 
 
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "660",
         "name": "Thor Girl",
         "powerstats": {
@@ -21288,7 +20523,6 @@
         }
     },
     {
-        "response": "success",
         "id": "334",
         "name": "Huntress",
         "powerstats": {
@@ -21338,13 +20572,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/707.jpg"
         }
     },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
+
 
     {
-        "response": "success",
         "id": "169",
         "name": "Chamber",
         "powerstats": {
@@ -21395,7 +20625,6 @@
         }
     },
     {
-        "response": "success",
         "id": "528",
         "name": "Professor Zoom",
         "powerstats": {
@@ -21446,12 +20675,8 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/766.jpg"
         }
     },
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "502",
         "name": "One Punch Man",
         "powerstats": {
@@ -21499,16 +20724,9 @@
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/10522.jpg"
         }
     },
+
+
     {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "error",
-        "error": "invalid id"
-    },
-    {
-        "response": "success",
         "id": "601",
         "name": "Sinestro",
         "powerstats": {

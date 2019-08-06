@@ -1,15 +1,15 @@
 const input = document.querySelector('input');
-const charactersCenter = document.querySelector('.characters-center');
+const charactersCenter = document.querySelector('.character-center');
 const characters = [];
 const db = 'db.json'
 const superheroes = () => {
      return new Promise((resolve,reject)=>{
-        fetch("db.json")
+        fetch("https://raw.githubusercontent.com/ASyl20/poke/master/assets/js/db.json")
         .then(blob=>{ 
             blob.json().then(data=>{
+                    console.log(...data)
                     // ... Tu prends toutes les données tu les met les unes apres les autres mais sans array
-                    console.log(data)
-                    characters.push(data);
+                    characters.push(...data);
                     // console.log(...heroes[0]);
                     resolve(data)
                 })
@@ -26,6 +26,7 @@ superheroes().then(result=>{
     }else{
         console.log(typeof characters);
         Object.entries(characters).map(character=>{
+            console.log(character)
             createCardCharacter(character[1])
         });
     }
@@ -44,5 +45,5 @@ function createCardCharacter(character){
     charactersCenter.appendChild(character__card__header)
     charactersCenter.appendChild(character__card__body)
     charactersCenter.appendChild(image__card)
-    charactersCenter.appendChild(character__card)
+    charactersCenter.appendChild(ccharacter__card )
 }
