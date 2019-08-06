@@ -7,9 +7,9 @@ const superheroes = () => {
         fetch("https://raw.githubusercontent.com/ASyl20/poke/master/assets/js/db.json")
         .then(blob=>{ 
             blob.json().then(data=>{
-                    console.log(...data)
+                    // console.log(...data)
                     // ... Tu prends toutes les données tu les met les unes apres les autres mais sans array
-                    characters.push(...data);
+                    characters.push(data);
                     // console.log(...heroes[0]);
                     resolve(data)
                 })
@@ -24,26 +24,28 @@ superheroes().then(result=>{
     if(!result){
         console.log('Pb de connexion');
     }else{
-        console.log(typeof characters);
-        Object.entries(characters).map(character=>{
-            console.log(character)
+        console.log( characters);
+        Object.entries(characters[0]).map((character,index)=>{
+            // console.log(index)
+            // console.log(character[1])
             createCardCharacter(character[1])
         });
     }
 }).catch(err=>console.log(err.message));
 
 function createCardCharacter(character){
-    console.log(character.name)
+    console.log(character.image.url)
     let character__card = document.createElement('div')
     let character__card__header = document.createElement('div')
     let image__card= document.createElement('img');
     let character__card__body = document.createElement('div')
     let character__card_text = document.createElement('span')
-    image__card.src= character.image.url
+    image__card.src= (character.image.url ? character.image.url  :"https://dummyimage.com/600x400/000/fff.png&text=No+image")
     image__card.alt = character.name
     character__card_text.textContent = character.name;
-    charactersCenter.appendChild(character__card__header)
-    charactersCenter.appendChild(character__card__body)
-    charactersCenter.appendChild(image__card)
-    charactersCenter.appendChild(ccharacter__card )
+    character__card__header.appendChild(image__card)
+    character__card.appendChild(character__card__header)
+    character__card__body.appendChild(character__card_text)
+    character__card.appendChild(character__card__body)
+    charactersCenter.appendChild(character__card)
 }
