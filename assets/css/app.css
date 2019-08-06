@@ -69,6 +69,10 @@ body{
     display: block;
     height: 350px;
     width: 200px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: -5px 0px 26px -8px rgba(0,0,0,0.75);
+    margin: .5em;
 }
 .character__header{
     display: block;
@@ -78,7 +82,7 @@ body{
 .character__header img{
     display: block;
     height: 300px;
-    /* width: 200px; */
+    width: 100%;
     margin: 0 auto;
 }
 .character__body span{
