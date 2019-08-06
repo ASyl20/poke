@@ -4,7 +4,7 @@ const characters = [];
 const db = 'db.json'
 const superheroes = () => {
      return new Promise((resolve,reject)=>{
-        fetch("https://raw.githubusercontent.com/ASyl20/poke/master/assets/js/db.json")
+        fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
         .then(blob=>{ 
             blob.json().then(data=>{
                     // console.log(...data)
@@ -34,13 +34,16 @@ superheroes().then(result=>{
 }).catch(err=>console.log(err.message));
 
 function createCardCharacter(character){
-    console.log(character.image.url)
+    // console.log(character.image.url)
     let character__card = document.createElement('div')
+    character__card.className="character"
     let character__card__header = document.createElement('div')
+    character__card__header.className="character__header"
     let image__card= document.createElement('img');
     let character__card__body = document.createElement('div')
+    character__card__body.className="character__body"
     let character__card_text = document.createElement('span')
-    image__card.src= (character.image.url ? character.image.url  :"https://dummyimage.com/600x400/000/fff.png&text=No+image")
+    image__card.src= (character.images.lg ? character.images.lg  :"https://dummyimage.com/600x400/000/fff.png&text=No+image")
     image__card.alt = character.name
     character__card_text.textContent = character.name;
     character__card__header.appendChild(image__card)
