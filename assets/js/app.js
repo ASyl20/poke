@@ -1,54 +1,112 @@
 const input = document.querySelector('input');
+const ul = document.querySelector('ul')
 const charactersCenter = document.querySelector('.character-center');
 const characters = [];
-const db = 'db.json'
-const superheroes = () => {
-     return new Promise((resolve,reject)=>{
-        fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
-        .then(blob=>{ 
-            blob.json().then(data=>{
-                    // console.log(...data)
-                    // ... Tu prends toutes les données tu les met les unes apres les autres mais sans array
-                    characters.push(data);
-                    // console.log(...heroes[0]);
-                    resolve(data)
-                })
-                .catch(err=>{
-                    console.log(err.message);
-                    reject(err.message)
-                });
-            });
-    });
-};
-superheroes().then(result=>{
-    if(!result){
-        console.log('Pb de connexion');
-    }else{
-        console.log( characters);
-        Object.entries(characters[0]).map((character,index)=>{
-            // console.log(index)
-            // console.log(character[1])
-            createCardCharacter(character[1])
-        });
-    }
-}).catch(err=>console.log(err.message));
 
-function createCardCharacter(character){
-    // console.log(character.image.url)
-    let character__card = document.createElement('div')
-    character__card.className="character"
-    let character__card__header = document.createElement('div')
-    character__card__header.className="character__header"
-    let image__card= document.createElement('img');
-    let character__card__body = document.createElement('div')
-    character__card__body.className="character__body"
-    let character__card_text = document.createElement('span')
-    image__card.src= (character.images.lg ? character.images.lg  :"https://dummyimage.com/600x400/000/fff.png&text=No+image")
-    image__card.alt = character.name
-    character__card_text.textContent = character.name;
-    character__card__header.appendChild(image__card)
-    character__card.appendChild(character__card__header)
-    character__card__body.appendChild(character__card_text)
-    character__card.appendChild(character__card__body)
-    charactersCenter.appendChild(character__card)
+input.addEventListener('change',showCharacter)
+
+const superheroes = async () => {
+    let response = await fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
+    let result = await response.json().then(data => {
+        characters.push(data)
+        return data
+    }).catch(err => {
+        return err
+    })
+    return result
+};
+superheroes().then(result => {
+    if (!result || result instanceof Error) {
+        console.log(`Pb de connexion : ${result.message}`);
+    } else {
+        createCharacter(characters[0])
+    }
+}).then((result) => {
+    const images = document.querySelectorAll("[data-src]")
+    images.forEach(image => {
+        imgObserver.observe(image)
+    })
+}).catch(err => console.log(err.message));
+
+function createCharacter(people){
+    console.log(people)
+    Object.entries(people).map((character) => {
+        createCardCharacter(character[1])
+    });
 }
+
+function findPersonnage(recherche,characters){
+    console.log(characters[0])
+    return Object.entries(characters[0]).filter(character =>{
+        // gi g pour global et i majuscule ou pas
+        const regex = new RegExp(recherche,'gi')
+        return character[1].name.match(regex)
+    }).reduce((obj)=>{
+        return {
+            ...obj
+        }
+    })
+}
+function showCharacter(){
+    const tabResult = findPersonnage(this.value,characters)
+    console.log(tabResult)
+    // console.log([tabResult][0])
+    // console.log(characters)
+    // createCharacter([tabResult][1])
+}
+
+
+function createCardCharacter(character) {
+    // console.log(character)
+    let listItem = document.createElement('li')
+    let a = document.createElement('a')
+    let divAvatar = document.createElement('div')
+    let image = document.createElement('img')
+    let divButton = document.createElement('div')
+    let spanTitle = document.createElement('span')
+    let spanReadMore = document.createElement('span')
+    let spanOffline = document.createElement('span')
+
+    image.setAttribute('data-src', (character.images.sm ? character.images.sm : "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/no-portrait.jpg"))
+    image.alt = character.name
+    spanTitle.textContent = character.name
+    spanReadMore.textContent = "Read More"
+    spanOffline.textContent = "Save"
+    divAvatar.className = "avatar"
+    divButton.className = "buttons"
+    spanTitle.className = "title"
+    divAvatar.appendChild(image)
+    divButton.appendChild(spanReadMore)
+    divButton.appendChild(spanOffline)
+    a.appendChild(divAvatar)
+    a.appendChild(spanTitle)
+    a.appendChild(divButton)
+    listItem.appendChild(a)
+    ul.appendChild(listItem)
+}
+
+function preloadImage(img) {
+    const src = img.getAttribute("data-src")
+    if (!src) {
+        return;
+    }
+    img.src = src
+    img.removeAttribute('data-src')
+    img.onerror = function(){
+        this.onerror = null;
+        this.src="https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/no-portrait.jpg"
+    }
+}
+
+const imgOptions = {};
+
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            preloadImage(entry.target)
+            imgObserver.unobserve(entry.target)
+        }
+    })
+}, imgOptions)
