@@ -41,16 +41,17 @@ body {
 .form-box {
     margin: 1em;
 }
-
+.form-box label{
+    position: relative;
+}
 .form-box span {
     position: absolute;
-    margin-left: -23px;
-    margin-top: -5px;
-    z-index: 99;
-    color: #fff;
-    -webkit-transform: translate(50%, 100%);
-    transform: translate(50%, 100%);
-    right: 0%;
+    z-index: 1;
+    color: #2c313b;
+    left: 70%;
+    top:0%;
+    font-size: 1.5em;
+    margin: 0 .5em;
 }
 
 .form-box input {

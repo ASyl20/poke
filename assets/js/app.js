@@ -1,112 +1,90 @@
+import {
+    imgLoad,
+    createCardCharacter
+} from './lib.js';
+
 const input = document.querySelector('input');
-const ul = document.querySelector('ul')
-const charactersCenter = document.querySelector('.character-center');
+const ul = document.querySelector('ul');
 const characters = [];
 
-input.addEventListener('change',showCharacter)
+input.addEventListener('keyup', showCharacter);
 
 const superheroes = async () => {
     let response = await fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
     let result = await response.json().then(data => {
-        characters.push(data)
-        return data
+        characters.push(...data);
+        return data;
     }).catch(err => {
-        return err
-    })
-    return result
+        return err;
+    });
+    return result;
 };
 superheroes().then(result => {
     if (!result || result instanceof Error) {
-        console.log(`Pb de connexion : ${result.message}`);
+        console.error(`Pb de connexion : ${result.message}`);
     } else {
-        createCharacter(characters[0])
+        createCharacter(characters)
     }
-}).then((result) => {
-    const images = document.querySelectorAll("[data-src]")
-    images.forEach(image => {
-        imgObserver.observe(image)
-    })
 }).catch(err => console.log(err.message));
 
-function createCharacter(people){
-    console.log(people)
-    Object.entries(people).map((character) => {
-        createCardCharacter(character[1])
+function createCharacter(people) {
+    const results = people.map(async (character) => {
+        createCardCharacter(character);
+    });
+    Promise.all(results).then((completed) => {
+        console.log(`Affichage terminé ${completed}`);
+        imgLoad();
     });
 }
 
-function findPersonnage(recherche,characters){
-    console.log(characters[0])
-    return Object.entries(characters[0]).filter(character =>{
+function findPersonnage(recherche, characters) {
+    return characters.filter(character => {
         // gi g pour global et i majuscule ou pas
-        const regex = new RegExp(recherche,'gi')
-        return character[1].name.match(regex)
-    }).reduce((obj)=>{
-        return {
-            ...obj
-        }
+        const regex = new RegExp(recherche, 'gi');
+        return character.name.match(regex);
     })
 }
-function showCharacter(){
-    const tabResult = findPersonnage(this.value,characters)
-    console.log(tabResult)
-    // console.log([tabResult][0])
-    // console.log(characters)
-    // createCharacter([tabResult][1])
+
+function showCharacter() {
+    let tabResult = findPersonnage(this.value, characters);
+    ul.innerHTML = "";
+    createCharacter(tabResult);
 }
 
-
-function createCardCharacter(character) {
-    // console.log(character)
-    let listItem = document.createElement('li')
-    let a = document.createElement('a')
-    let divAvatar = document.createElement('div')
-    let image = document.createElement('img')
-    let divButton = document.createElement('div')
-    let spanTitle = document.createElement('span')
-    let spanReadMore = document.createElement('span')
-    let spanOffline = document.createElement('span')
-
-    image.setAttribute('data-src', (character.images.sm ? character.images.sm : "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/no-portrait.jpg"))
-    image.alt = character.name
-    spanTitle.textContent = character.name
-    spanReadMore.textContent = "Read More"
-    spanOffline.textContent = "Save"
-    divAvatar.className = "avatar"
-    divButton.className = "buttons"
-    spanTitle.className = "title"
-    divAvatar.appendChild(image)
-    divButton.appendChild(spanReadMore)
-    divButton.appendChild(spanOffline)
-    a.appendChild(divAvatar)
-    a.appendChild(spanTitle)
-    a.appendChild(divButton)
-    listItem.appendChild(a)
-    ul.appendChild(listItem)
+if(navigator.serviceWorker){
+    navigator.serviceWorker.register('sw.js')
+        .then((registration)=>{
+            console.log(`Sw est enregistré ${registration}`)
+        }).catch(err => console.log(err.message));
 }
 
-function preloadImage(img) {
-    const src = img.getAttribute("data-src")
-    if (!src) {
-        return;
-    }
-    img.src = src
-    img.removeAttribute('data-src')
-    img.onerror = function(){
-        this.onerror = null;
-        this.src="https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/no-portrait.jpg"
-    }
+// On vérifie si le navigateur à bien un ystème de cache
+if (window.caches) {
+    caches.open('comics-cache-1.0').then(cache => {
+        // Une fois le cache crée on va utiliser addAll
+        // elle va permettre de stocker des fichiers
+        cache.addAll([
+            './assets/js/app.js',
+            './assets/js/lib.js',
+            './assets/css/all.min.css',
+            './assets/css/app.css',
+            './assets/css/reset.css',
+            './assets/webfonts/fa-brands-400.eot',
+            './assets/webfonts/fa-brands-400.svg',
+            './assets/webfonts/fa-brands-400.ttf',
+            './assets/webfonts/fa-brands-400.woff',
+            './assets/webfonts/fa-brands-400.woff2',
+            './assets/webfonts/fa-regular-400.eot',
+            './assets/webfonts/fa-regular-400.svg',
+            './assets/webfonts/fa-regular-400.ttf',
+            './assets/webfonts/fa-regular-400.woff',
+            './assets/webfonts/fa-regular-400.woff2',
+            './assets/webfonts/fa-solid-900.eot',
+            './assets/webfonts/fa-solid-900.svg',
+            './assets/webfonts/fa-solid-900.ttf',
+            './assets/webfonts/fa-solid-900.woff',
+            './assets/webfonts/fa-solid-900.woff2',
+        ]);
+    });
+
 }
-
-const imgOptions = {};
-
-const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            preloadImage(entry.target)
-            imgObserver.unobserve(entry.target)
-        }
-    })
-}, imgOptions)
