@@ -45,8 +45,8 @@ const createCardCharacter = (character) => {
     image.setAttribute('data-src', (character.images.sm ? character.images.sm : "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/no-portrait.jpg"))
     image.alt = character.name;
     spanTitle.textContent = character.name;
-    spanReadMore.textContent = "Read More";
-    spanOffline.textContent = "Save";
+    spanReadMore.innerHTML = '<i class="fab fa-readme fa-2x"></i>';
+    spanOffline.innerHTML = '<i class="far fa-heart fa-2x"></i>';
     divAvatar.className = "avatar";
     divButton.className = "buttons";
     spanTitle.className = "title";

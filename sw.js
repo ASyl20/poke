@@ -54,24 +54,23 @@ self.addEventListener('fetch',function(evt){
         const headers = {headers:{"Content-Type":"text/html"}};
         evt.respondWith(new Response('<h1>Pas de connection internet! Veuillez vous connectez</h1>',headers));
     }
-    // Stratégie network first with cache fallback
-    evt.respondWith(
-        // On fait un fetch sur notre requete interceptée
-        fetch(evt.request).then(res=>{
-            // On va mettre directement le nouveau contenue en caches
-            console.log(`${evt.request.url} fetchée depuis le réseau`);
-            caches.open(cacheName).then(cache=>{
-                if(evt.request.status === 200)
-                  cache.put(evt.request,res);
-                }
-            );
-            // On clone car on ne peut lire que le flux qu'une fois
-            // On renvoie notre réponse
-            return res.clone();
-        }).catch(err=>{
-            console.log(`${evt.request.url} fetchée depuis le cache`);
-            // Si on a pas de réponse depuis le réseau on cherche depuis le cache
-            return caches.match(evt.request);
+   // // Stratégie cache with network fallback
+   evt.respondWith(
+        caches.match(evt.request).then(res=>{
+            console.log('url fetchée' + res);
+            if(res){
+                return res;
+            }
+            // Si une requete echoue on fait un fetch normal
+            return fetch(evt.request).then(newResponse =>{
+                console.log('url récupérée sur le reseau puis mise en cache' + evt.request.url +' '+ newResponse);
+                caches.open(cacheName).then( cache => {
+                    if(evt.request.status === 200)
+                        cache.put(evt.request,newResponse)
+                });
+                    // Comme une réponse ne peut pas être utiliser deux fois on doit la clonée
+                return newResponse.clone();
+            });
         })
     );
 });
