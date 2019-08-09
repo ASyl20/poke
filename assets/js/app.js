@@ -51,9 +51,9 @@ function createCharacter(people) {
         const offline = document.querySelectorAll('.offline')
         Object.entries(offline).map(off=>{
             off[1].addEventListener('click',function (e){
-                let c = characters.filter( async(character)=>{
+                let c = characters.filter( (character)=>{
                         if(character.id === parseInt(this.getAttribute("data-id")) ){
-                            return await character
+                            return  character
                         }
                 })
                 db.createCharacter(...c)
@@ -78,7 +78,7 @@ function showCharacter() {
 
 if(navigator.serviceWorker){
     // if(!navigator.onLine && `SyncManager` in window){
-        console.log('echec de connexion')
+        // console.log('echec de connexion')
     //         console.log('SyncManager est supporté par le navigateur')
     //         console.log('Vous êtes hors ligne')
     
