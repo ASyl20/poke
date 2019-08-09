@@ -1,5 +1,8 @@
+// import DB from "./db";
+// import DB from './db.js'
 const imgLoad = () => {
     const images = document.querySelectorAll("[data-src]");
+    
     images.forEach(image => {
         imgObserver.observe(image);
     });
@@ -46,6 +49,9 @@ const createCardCharacter = (character) => {
     image.alt = character.name;
     spanTitle.textContent = character.name;
     spanReadMore.innerHTML = '<i class="fab fa-readme fa-2x"></i>';
+    spanReadMore.className="readmore"
+    spanOffline.setAttribute('data-id',character.id)
+    spanOffline.className="offline"
     spanOffline.innerHTML = '<i class="far fa-heart fa-2x"></i>';
     divAvatar.className = "avatar";
     divButton.className = "buttons";

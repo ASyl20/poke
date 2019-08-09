@@ -3,19 +3,29 @@ import {
     createCardCharacter
 } from './lib.js';
 
+import DB from './db.js'
+
 const input = document.querySelector('input');
+
 const ul = document.querySelector('ul');
 const characters = [];
-
+var db = null;
 input.addEventListener('keyup', showCharacter);
 
+
 const superheroes = async () => {
+    db = new DB('ComicsPedia-v1.0.0')
     let response = await fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
     let result = await response.json().then(data => {
         characters.push(...data);
         return data;
     }).catch(err => {
-        return err;
+        if('serviceWorker' in navigator && 'SyncManager' in window){
+            console.log('Prb hors ligne')
+        }else{
+            console.log('echec')
+        }
+        // return err;
     });
     return result;
 };
@@ -25,7 +35,9 @@ superheroes().then(result => {
     } else {
         createCharacter(characters)
     }
-}).catch(err => console.log(err.message));
+}).catch(err => {
+    console.log(err.message)
+});
 
 function createCharacter(people) {
     const results = people.map(async (character) => {
@@ -34,6 +46,19 @@ function createCharacter(people) {
     Promise.all(results).then((completed) => {
         console.log(`Affichage terminé ${completed}`);
         imgLoad();
+    }).then(()=>{
+        // console.log(...c)
+        const offline = document.querySelectorAll('.offline')
+        Object.entries(offline).map(off=>{
+            off[1].addEventListener('click',function (e){
+                let c = characters.filter( async(character)=>{
+                        if(character.id === parseInt(this.getAttribute("data-id")) ){
+                            return await character
+                        }
+                })
+                db.createCharacter(...c)
+            })
+        })
     });
 }
 
@@ -52,10 +77,19 @@ function showCharacter() {
 }
 
 if(navigator.serviceWorker){
+    // if(!navigator.onLine && `SyncManager` in window){
+        console.log('echec de connexion')
+    //         console.log('SyncManager est supporté par le navigateur')
+    //         console.log('Vous êtes hors ligne')
+    
+    //         navigator.serviceWorker.ready.then(registration=>{
+    //             console.log("Vous etes dans le catch offline")
+    //         })
+    //     }
     navigator.serviceWorker.register('sw.js')
-        .then((registration)=>{
-            console.log(`Sw est enregistré ${registration}`)
-        }).catch(err => console.log(err.message));
+    .then((registration)=>{
+        console.log(`Sw est enregistré ${registration}`)
+    }).catch(err =>{ console.log(err.message)});
 }
 
 // On vérifie si le navigateur à bien un ystème de cache

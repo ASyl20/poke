@@ -77,7 +77,7 @@ ul li {
     min-height: 180px;
 }
 
-ul li a {
+ul li > a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -134,7 +134,7 @@ ul li a {
         width: 100%;
     }
 
-    ul li a {
+    ul li >a {
         -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
         justify-content: space-evenly;

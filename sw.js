@@ -1,5 +1,5 @@
 console.log('Service Worker running');
-
+// import DB from './assets/js/db.js'
 const cacheName = 'comics-cache-1.0';
 self.addEventListener('install',function(evt){
     console.log(`Installation ${evt}`)
@@ -48,29 +48,32 @@ self.addEventListener('activate',function(evt){
 
 self.addEventListener('fetch',function(evt){
     // Détecter que le navigator est hors ligne
-    if(!navigator.onLine){
-        // On va créer une nouvelle réponse 
-        // SI on rajoute pas le header le html ne sera pas traité
-        const headers = {headers:{"Content-Type":"text/html"}};
-        evt.respondWith(new Response('<h1>Pas de connection internet! Veuillez vous connectez</h1>',headers));
-    }
-   // // Stratégie cache with network fallback
-   evt.respondWith(
-        caches.match(evt.request).then(res=>{
-            console.log('url fetchée' + res);
-            if(res){
-                return res;
-            }
-            // Si une requete echoue on fait un fetch normal
-            return fetch(evt.request).then(newResponse =>{
-                console.log('url récupérée sur le reseau puis mise en cache' + evt.request.url +' '+ newResponse);
-                caches.open(cacheName).then( cache => {
-                    if(evt.request.status === 200)
-                        cache.put(evt.request,newResponse)
+    // if(!navigator.onLine){
+    //     // console.log(DB)
+    //     // On va créer une nouvelle réponse 
+    //     // SI on rajoute pas le header le html ne sera pas traité
+    //     const headers = {headers:{"Content-Type":"text/html"}};
+    //     evt.respondWith(new Response('<h1>Pas de connection internet! Veuillez vous connectez</h1>',headers));
+    // }else{
+        if(navigator.onLine)
+        evt.respondWith(
+            caches.match(evt.request).then(res=>{
+                // console.log('url fetchée ' + res);
+                if(res){
+                    return res;
+                }
+                // Si une requete echoue on fait un fetch normal
+                return fetch(evt.request).then(newResponse =>{
+                    // console.log('url récupérée sur le reseau puis mise en cache ' + evt.request.url +' '+ newResponse);
+                    caches.open(cacheName).then( cache => {
+                        if(evt.request.status === 200)
+                            cache.put(evt.request,newResponse)
+                    });
+                        // Comme une réponse ne peut pas être utiliser deux fois on doit la clonée
+                    return newResponse.clone();
                 });
-                    // Comme une réponse ne peut pas être utiliser deux fois on doit la clonée
-                return newResponse.clone();
-            });
-        })
-    );
+            })
+        );
+    // }
+   // // Stratégie cache with network fallback
 });
