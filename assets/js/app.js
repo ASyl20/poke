@@ -1,9 +1,3 @@
-// import {
-//     imgLoad,
-//     createCardCharacter
-// } from './lib.js';
-
-// import DB from './db.js'
 
 const input = document.querySelector('input'); 
 
@@ -23,6 +17,7 @@ const superheroes = async () => {
         if('serviceWorker' in navigator && 'SyncManager' in window){
             console.log('Prb hors ligne')
             navigator.serviceWorker.ready.then(registration=>{
+                console.log(`Enregistrement du sw ${registration}`)
                 // Vérifier que la bd existe
                 db.db.info().then((dbase)=>{
                     if(dbase.db_name == database && dbase.doc_count != 0){    
@@ -43,7 +38,7 @@ const superheroes = async () => {
         }
     })
     let result = await response.json().then(data => {
-        console.log(data)
+        // console.log(data)
         characters.push(...data);
         return data;
     }).catch(err => {
@@ -99,15 +94,6 @@ function showCharacter() {
 }
 
 if(navigator.serviceWorker){
-    // if(!navigator.onLine && `SyncManager` in window){
-        // console.log('echec de connexion')
-    //         console.log('SyncManager est supporté par le navigateur')
-    //         console.log('Vous êtes hors ligne')
-    
-    //         navigator.serviceWorker.ready.then(registration=>{
-    //             console.log("Vous etes dans le catch offline")
-    //         })
-    //     }
     navigator.serviceWorker.register('sw.js')
     .then((registration)=>{
         console.log(`Sw est enregistré ${registration}`)
