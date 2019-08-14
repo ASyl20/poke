@@ -1,13 +1,13 @@
 
 
-export default class DB{
+class DB{
     constructor(name){
         this.db = new PouchDB(name)
     }
     async getAllCharacters(){
         let allCharacters = await this.db.allDocs({include_docs:true})
-        let characters = {}
-        allCharacters.rows.forEach(c=>characters[c.id]=c.doc)
+        let characters = []
+        allCharacters.rows.forEach(c=>characters.push(c.doc))
         return characters
     }
     async createCharacter(character){

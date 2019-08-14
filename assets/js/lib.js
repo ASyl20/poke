@@ -66,7 +66,7 @@ const createCardCharacter = (character) => {
     ul.appendChild(listItem);
 };
 
-export {
-    imgLoad,
-    createCardCharacter
-};
+// export {
+//     imgLoad,
+//     createCardCharacter
+// };

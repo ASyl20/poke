@@ -2,10 +2,14 @@
   "name": "superheroes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "index.html",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "ws": "^7.1.2"
+  },
   "devDependencies": {},
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
