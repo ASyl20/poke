@@ -1,8 +1,6 @@
-// import DB from "./db";
-// import DB from './db.js'
 const imgLoad = () => {
     const images = document.querySelectorAll("[data-src]");
-    
+
     images.forEach(image => {
         imgObserver.observe(image);
     });
@@ -34,6 +32,51 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 }, imgOptions);
 
 
+btnOffline = (offline) => {
+    Object.entries(offline).map(off => {
+        off[1].addEventListener('click', function (e) {
+            if (e.target.classList.contains('far')) {
+                e.target.className = "fas fa-heart fa-2x"
+                let c = characters.filter((character) => {
+                    if (character.id === parseInt(this.getAttribute("data-id"))) {
+                        return character;
+                    }
+                });
+                db.createCharacter(...c).then(obj => {
+                    e.target.setAttribute('doc-id', obj.id)
+                    e.target.setAttribute('doc-rev', obj.rev)
+                }).catch(e => {
+                    console.log(e.message);
+                });
+            } else {
+                e.target.className = "far fa-heart fa-2x"
+                let id = e.target.getAttribute("doc-id")
+                let rev = e.target.getAttribute("doc-rev")
+                db.removeCharacter(id, rev).then((success) => {
+                    console.log(success);
+                }).catch((e) => {
+                    console.error(e.message);
+                });
+            }
+        });
+    });
+}
+
+function findPersonnage(recherche, characters) {
+    return characters.filter(character => {
+        // gi g pour global et i majuscule ou pas
+        const regex = new RegExp(recherche, 'gi');
+        return character.name.match(regex);
+    })
+}
+
+function showCharacter() {
+    let tabResult = findPersonnage(this.value, characters);
+    ul.innerHTML = "";
+    createCharacter(tabResult);
+}
+
+
 const ul = document.querySelector('ul');
 const createCardCharacter = (character) => {
     let listItem = document.createElement('li');
@@ -49,10 +92,10 @@ const createCardCharacter = (character) => {
     image.alt = character.name;
     spanTitle.textContent = character.name;
     spanReadMore.innerHTML = '<i class="fab fa-readme fa-2x"></i>';
-    spanReadMore.className="readmore"
-    spanOffline.setAttribute('data-id',character.id)
-    spanOffline.className="offline"
-    spanOffline.innerHTML = '<i class="far fa-heart fa-2x"></i>';
+    spanReadMore.className = "readmore";
+    spanOffline.setAttribute('data-id', character.id);
+    spanOffline.className = "offline";
+    spanOffline.innerHTML = '<i id="character-' + character.id + '" class="far fa-heart fa-2x"></i>';
     divAvatar.className = "avatar";
     divButton.className = "buttons";
     spanTitle.className = "title";
@@ -64,9 +107,10 @@ const createCardCharacter = (character) => {
     a.appendChild(divButton);
     listItem.appendChild(a);
     ul.appendChild(listItem);
-};
 
-// export {
-//     imgLoad,
-//     createCardCharacter
-// };
+    db.getAllId().then(c => {
+        if (c.includes(character.id)) {
+            document.querySelector('#character-' + character.id).className = "fas fa-heart fa-2x"
+        }
+    })
+};

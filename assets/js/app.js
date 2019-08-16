@@ -1,5 +1,4 @@
-
-const input = document.querySelector('input'); 
+const input = document.querySelector('input');
 
 // const ul = document.querySelector('ul');
 const characters = [];
@@ -11,32 +10,32 @@ input.addEventListener('keyup', showCharacter);
 const superheroes = async () => {
     db = new DB(database)
     let response = await fetch("https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json")
-    .catch((err)=>{
-        // alert(err)
-        console.error(`Impossible de charger l'url ${err.message}`)
-        if('serviceWorker' in navigator && 'SyncManager' in window){
-            console.log('Prb hors ligne')
-            navigator.serviceWorker.ready.then(registration=>{
-                console.log(`Enregistrement du sw ${registration}`)
-                // Vérifier que la bd existe
-                db.db.info().then((dbase)=>{
-                    if(dbase.db_name == database && dbase.doc_count != 0){    
-                        db.getAllCharacters().then((character)=>{
-                            characters.push(...character)
-                        }).then(()=>{
-                            createCharacter(characters)
-                        }).catch((err)=>{
-                            console.log('Une erreur est survenue : ',err.message)
-                        })
-                    }else{
-                        console.warn('Base de données vide')
-                    }
+        .catch((err) => {
+            // alert(err)
+            console.error(`Impossible de charger l'url ${err.message}`)
+            if ('serviceWorker' in navigator) {
+                console.log('Prb hors ligne')
+                navigator.serviceWorker.ready.then(registration => {
+                    console.log(`Enregistrement du sw ${registration}`)
+                    // Vérifier que la bd existe
+                    db.db.info().then((dbase) => {
+                        if (dbase.db_name == database && dbase.doc_count != 0) {
+                            db.getAllCharacters().then((character) => {
+                                characters.push(...character)
+                            }).then(() => {
+                                createCharacter(characters)
+                            }).catch((err) => {
+                                console.log('Une erreur est survenue : ', err.message)
+                            })
+                        } else {
+                            console.warn('Base de données vide')
+                        }
+                    })
                 })
-            })
-        }else{
-            console.log('Votre navigateur n\'est pas supporter')
-        }
-    })
+            } else {
+                console.log('Votre navigateur n\'est pas supporter')
+            }
+        })
     let result = await response.json().then(data => {
         // console.log(data)
         characters.push(...data);
@@ -63,41 +62,21 @@ function createCharacter(people) {
     Promise.all(results).then((completed) => {
         console.log(`Affichage terminé ${completed}`);
         imgLoad();
-    }).then(()=>{
+    }).then(() => {
         // console.log(...c)
         const offline = document.querySelectorAll('.offline')
-        Object.entries(offline).map(off=>{
-            off[1].addEventListener('click',function (e){
-                let c = characters.filter( (character)=>{
-                        if(character.id === parseInt(this.getAttribute("data-id")) ){
-                            return  character
-                        }
-                })
-                db.createCharacter(...c)
-            });
-        });
+        btnOffline(offline)
     });
 }
 
-function findPersonnage(recherche, characters) {
-    return characters.filter(character => {
-        // gi g pour global et i majuscule ou pas
-        const regex = new RegExp(recherche, 'gi');
-        return character.name.match(regex);
-    })
-}
 
-function showCharacter() {
-    let tabResult = findPersonnage(this.value, characters);
-    ul.innerHTML = "";
-    createCharacter(tabResult);
-}
-
-if(navigator.serviceWorker){
+if (navigator.serviceWorker) {
     navigator.serviceWorker.register('sw.js')
-    .then((registration)=>{
-        console.log(`Sw est enregistré ${registration}`)
-    }).catch(err =>{ console.log(err.message)});
+        .then((registration) => {
+            console.log(`Sw est enregistré ${registration}`)
+        }).catch(err => {
+            console.log(err.message)
+        });
 }
 
 // On vérifie si le navigateur à bien un ystème de cache
