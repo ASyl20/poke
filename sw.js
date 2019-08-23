@@ -1,9 +1,8 @@
-// console.log('Service Worker running');
-// import DB from './assets/js/db.js'
-const offlineUrl = 'offline.html'
+
+const offlineUrl = 'offline.html';
 const cacheName = 'comics-cache-1.0';
 self.addEventListener('install', function (evt) {
-    console.log(`Installation ${evt}`)
+    console.log(`Installation ${evt}`);
     const cachePromise = caches.open(cacheName).then(cache => {
         return cache.addAll([
             './offline.html',
@@ -12,6 +11,7 @@ self.addEventListener('install', function (evt) {
             './assets/js/lib.js',
             './assets/js/db.js',
             './assets/js/pouchdb.js',
+            './assets/js/pouchdb.find.js',
             './assets/css/all.min.css',
             './assets/css/app.css',
             './assets/css/reset.css',
@@ -51,18 +51,12 @@ self.addEventListener('activate', function (evt) {
     evt.waitUntil(cacheCleanedPromise);
 })
 
-self.addEventListener('fetch', function (evt) {
+self.addEventListener('fetch',async function (evt) {
     if (!navigator.onLine) {
-        // console.log('hors ligne');
         const url = "https://raw.githubusercontent.com/akabab/superhero-api/master/api/all.json"
-        // console.log(evt.request.url)
-        // if(url == evt.request.url){
-        //     // console.log('bon')
-        // }
         evt.respondWith(
             fetch(evt.request.url)
             .then(res => {
-                // console.log(evt.request.url)
                 if (res && !(url == evt.request.url)) {
                     // console.log(res)
                     return res;
@@ -70,68 +64,38 @@ self.addEventListener('fetch', function (evt) {
             })
             .catch(error => {
                 // Return the offline page
-                // console.log(error)
                 return caches.match(offlineUrl);
             }));
-    }
-    // console.log(evt.request.url);
-    //     if (evt.request.mode === 'navigate' || (evt.request.method === 'GET' && evt.request.headers.get('accept').includes('text/html'))) {
-    //         evt.respondWith(
-    //             fetch(evt.request.url)
-    //             .then(res=>{
-    //                 if(res){
-    //                     return res;
-    //                 }
-    //             })
-    //             .catch(error => {
-    //               // Return the offline page
-    //               console.log(error)
-    //               return caches.match(offlineUrl);
-    //           }).catch(err=>{
-    //               console.log(err)
-    //           })
-    //     );
-    //   }
-    else {
-        evt.respondWith(
-            caches.match(evt.request).then(res => {
-                // console.log('url fetchée ' + res);
-                if (res) {
-                    return res;
-                } else {
-                    return fetch(evt.request)
-                        .then(function (result) {
-                            return caches.open(cacheName)
-                                .then(function (cache) {
-                                    cache.put(evt.request.url, result.clone())
-                                    return result
-                                })
-                        })
-                        .catch((err) => {
-                            return caches.open(cacheName)
-                                .then(function (cache) {
-                                    return cache.match(offlineUrl);
-                                });
+    } else {
+    // Stale While Revalidate => on récupère le cache et on l'envoie. 
+    // Le contenu est ainsi directement disponible.
+    // Ensuite, on va chercher la requête sur le réseau pour que ce soit à jour la prochaine fois qu'on fait la requête
+    const { request } = evt
 
-                        })
-                }
-                // // Si une requete echoue on fait un fetch normal
-                // return fetch(evt.request).then(newResponse =>{
-                //     // console.log('url récupérée sur le reseau puis mise en cache ' + evt.request.url +' '+ newResponse);
-                //     caches.open(cacheName).then( cache => {
-                //         if(evt.request.status === 200)
-                //             cache.put(evt.request,newResponse)
-                //     }).catch(err=>{
-                //         console.log(err)
-                //     });
-                //     // Comme une réponse ne peut pas être utiliser deux fois on doit la clonée
-                //     return newResponse.clone();
-                // }).catch(err=>{
-                //     console.log(err)
-                //     return caches.match(offlineUrl);
-                // });
-            })
-        );
+    // Prevent Chrome Developer Tools error:
+    // Failed to execute 'fetch' on 'ServiceWorkerGlobalScope': 'only-if-cached' can be set only with 'same-origin' mode
+    //
+    // See also https://stackoverflow.com/a/49719964/1217468
+    if (request.cache === 'only-if-cached' && request.mode !== 'same-origin') {
+      return
     }
-    // // Stratégie cache with network fallback
+  
+    evt.respondWith(async function () {
+      const cache = await caches.open(cacheName)
+  
+      const cachedResponsePromise = await cache.match(request)
+      const networkResponsePromise = fetch(request)
+  
+      if (request.url.startsWith(self.location.origin)) {
+        evt.waitUntil(async function () {
+            const networkResponse = await networkResponsePromise
+            // console.log(networkResponsePromise)
+  
+          await cache.put(request, networkResponse.clone())
+        }())
+      }
+  
+      return cachedResponsePromise || networkResponsePromise
+    }())
+    }
 });

@@ -1,9 +1,9 @@
 const input = document.querySelector('input');
-
-// const ul = document.querySelector('ul');
+const ul = document.querySelector('ul');
 const characters = [];
 var db = null;
 const database = 'ComicsPedia-v1.0.0'
+
 input.addEventListener('keyup', showCharacter);
 
 
@@ -37,7 +37,6 @@ const superheroes = async () => {
             }
         })
     let result = await response.json().then(data => {
-        // console.log(data)
         characters.push(...data);
         return data;
     }).catch(err => {
@@ -55,21 +54,7 @@ superheroes().then(result => {
     console.log(err.message)
 });
 
-function createCharacter(people) {
-    const results = people.map(async (character) => {
-        createCardCharacter(character);
-    });
-    Promise.all(results).then((completed) => {
-        console.log(`Affichage terminé ${completed}`);
-        imgLoad();
-    }).then(() => {
-        // console.log(...c)
-        const offline = document.querySelectorAll('.offline')
-        btnOffline(offline)
-    });
-}
-
-
+// Ajout du service Worker
 if (navigator.serviceWorker) {
     navigator.serviceWorker.register('sw.js')
         .then((registration) => {
@@ -79,16 +64,19 @@ if (navigator.serviceWorker) {
         });
 }
 
-// On vérifie si le navigateur à bien un ystème de cache
+// // On vérifie si le navigateur à bien un ystème de cache
 // if (window.caches) {
 //     caches.open('comics-cache-1.0').then(cache => {
 //         // Une fois le cache crée on va utiliser addAll
 //         // elle va permettre de stocker des fichiers
 //         cache.addAll([
-//             './index.html',
+//             './offline.html',
 //             './assets/js/app.js',
 //             './assets/js/main.js',
 //             './assets/js/lib.js',
+//             './assets/js/db.js',
+//             './assets/js/pouchdb.js',
+//             './assets/js/pouchdb.find.js',
 //             './assets/css/all.min.css',
 //             './assets/css/app.css',
 //             './assets/css/reset.css',
